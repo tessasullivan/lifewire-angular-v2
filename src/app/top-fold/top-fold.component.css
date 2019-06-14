@@ -1,3 +1,11 @@
 .grid {
   display: grid;
 }
+#how-to {
+  display: grid;
+  grid-template-columns: 12fr;
+}
+
+#howToIcon, #howToPhoto {
+  max-height: 150px;
+}
