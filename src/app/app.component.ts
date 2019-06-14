@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  imgSrc = '../../assets/img';
   // Data section - to be replaced with Firebase at a later date
 
   // Header
@@ -20,7 +21,7 @@ export class AppComponent {
   howToItem3: Item = new Item ("Article", "Download Pictures from Your Computer", "#link");
 
   howToSection: Section = new Section
-    ("How To", "icon", "photo", [this.howToItem1, this.howToItem2, this.howToItem3], "#link" );
+    ("How To", `${this.imgSrc}/hp-howto.png`, "photo", [this.howToItem1, this.howToItem2, this.howToItem3], "#link" );
 
   fixItem1: Item = new Item("Article", "Wi-Fi Network Not Showing Up", "#link");
   fixItem2: Item = new Item("Article", "7 Ways to Fix When Chrome is Freezing", "#link");
