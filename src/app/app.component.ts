@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Lifewire Angular Repro';
 
   // Data section - to be replaced with Firebase at a later date
 
@@ -37,6 +36,12 @@ export class AppComponent {
   buySection: Section = new Section
     ("Buy", "icon", "photo", [this.buyItem1, this.buyItem2, this.buyItem3], "#link");
   
+  doMoreItem1: Item = new Item("Article", "What Does Apollo 11 Have to do with Tech?", "#link");
+  doMoreItem2: Item = new Item("Article", "The Best Video Chat App You Aren't Using", "#link");
+  doMoreItem3: Item = new Item("Article", "Play Retro Games on Your PC", "#link");
+
+  doMoreSection: Section = new Section
+    ("Do More", "icon", "photo", [this.doMoreItem1, this.doMoreItem2, this.doMoreItem3], "#link");
 
   // Editor's pick
 
