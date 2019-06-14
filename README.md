@@ -6,10 +6,14 @@
 This application is a 
 
 
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-|||
+### Web site components
+| Section | Details |
+| :-------------     | :------------- |
+| Header | Includes the following: |
+|| * ToC Icon|
+|| * Name |
+|| * Search box |
+| Sections
 
 
 
@@ -18,20 +22,17 @@ This application is a
 You must have Node.js installed.  Go to [Node.js](https://nodejs.org/en/download/current/) and download and install the appropriate version for your OS.
 
 1. Clone this repository.
-2. Go to [BetterDoctor API](https://developer.betterdoctor.com/) and register for an API key.
-3. Create a file called .env and store the key there in the following format:
-    ```exports.apiKey = <YOUR API KEY HERE>```
-
-4. Run ```npm install```.
-5. Run ```npm start``` This will load the application in your browser.
+2. ```cd angular-lifewire```
+3. Run ```npm install```.
+4. Run ```ng serve -o``` This will load the application in your browser at ```http://localhost:4200```.
 
 ## Known Issues
 * No known issues at this time.
 
 ## Technologies Used
 
+* Angular 8
 * Javascript
-* Webpack with Jasmine, Karma
 * HTML / CSS
 
 ## Support and contact details
