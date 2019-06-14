@@ -1,15 +1,30 @@
+h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-left: -2em;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: 4fr;
+  grid-template-columns: repeat(4, 3fr);
+  grid-gap: 5px;
 }
-#how-to {
+#how-to, #fix {
   display: grid;
-  border: black solid 1px;
-
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  border: 1px solid gray;
+  /* grid-template-rows: repeat(4, 1fr); */
 }
 
-#howToIcon, #howToPhoto {
-  max-height: 150px;
+#howToIcon, #howToPhoto, #fixIcon, #fixPhoto {
+  max-width: 275px;
+}
+
+.type {
+  font-variant: small-caps;
+  color: gray;
 }

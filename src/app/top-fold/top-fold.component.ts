@@ -9,5 +9,7 @@ import { Section } from '../models/section.model';
 })
 export class TopFoldComponent {
   @Input() tfHowToSection: Section;
-
+  @Input() tfFixSection: Section;
+  @Input() tfBuySection: Section;
+  @Input() tfDoMoreSection: Section;
 }

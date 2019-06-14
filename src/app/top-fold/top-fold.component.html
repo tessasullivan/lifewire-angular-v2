@@ -4,15 +4,21 @@
       <img id='howToIcon' src="{{ tfHowToSection.icon }}" alt='How To Icon' />
     </div>
     <div>
+      <h1>How To</h1>
+    </div>
+    <div>
       <img id='howToPhoto' src="{{ tfHowToSection.photo }}" alt='photo' />
     </div>
     <div>
-      <!-- <ul>
-        <li *ngFor="let currentItem of "></li>
-      </ul> -->
+      <ul>
+        <li *ngFor="let currentItem of tfHowToSection.items">
+          <span class='type' >{{currentItem.type}}</span> <br />{{currentItem.title}}</li>
+      </ul>
     </div>
   </div>
   <div id='fix'>
-    <p>fix section</p>
+    <div>
+      <img id='fixIcon' src="{{tfFixSection.icon}}" alt='Fix Icon' />
+    </div>
   </div>
 </div>

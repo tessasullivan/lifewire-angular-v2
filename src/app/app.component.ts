@@ -23,21 +23,21 @@ export class AppComponent {
   fixItem3: Item = new Item("Article", "Is Your Alexa App Offline or is it You?", "#link");
 
   fixSection: Section = new Section 
-    ("Fix", `${this.imgSrc}/`, `${this.imgSrc}/`, [this.fixItem1, this.fixItem2, this.fixItem3], "#link");
+    ("Fix", `${this.imgSrc}/hp-fix.png`, `${this.imgSrc}/`, [this.fixItem1, this.fixItem2, this.fixItem3], "#link");
 
   buyItem1: Item = new Item("List", "The Best Places to Buy Phones in 2019", "#link");
   buyItem2: Item = new Item("List", "Great Speakers for Outdoor Sound", "#link");
   buyItem3: Item = new Item("List", "Best Xbox One Role Playing Games", "#link");
 
   buySection: Section = new Section
-    ("Buy", `${this.imgSrc}`, `${this.imgSrc}/`, [this.buyItem1, this.buyItem2, this.buyItem3], "#link");
+    ("Buy", `${this.imgSrc}/hp-buy.png`, `${this.imgSrc}/`, [this.buyItem1, this.buyItem2, this.buyItem3], "#link");
   
   doMoreItem1: Item = new Item("Article", "What Does Apollo 11 Have to do with Tech?", "#link");
   doMoreItem2: Item = new Item("Article", "The Best Video Chat App You Aren't Using", "#link");
   doMoreItem3: Item = new Item("Article", "Play Retro Games on Your PC", "#link");
 
   doMoreSection: Section = new Section
-    ("Do More", `${this.imgSrc}`, `${this.imgSrc}/`, [this.doMoreItem1, this.doMoreItem2, this.doMoreItem3], "#link");
+    ("Do More", `${this.imgSrc}/hp-domore.png`, `${this.imgSrc}/`, [this.doMoreItem1, this.doMoreItem2, this.doMoreItem3], "#link");
 
   topFoldData = [this.howToSection, this.fixSection, this.buySection, this.doMoreSection];
 }
