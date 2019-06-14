@@ -3,17 +3,36 @@
 #### By **Tessa Sullivan**
 
 ## Description
-This application is a 
+This application is a reproduction of the Lifewire web site.  I chose to reproduce this site because the design is simple and easy to use while still managing to make a lot of information available to users.  No copyright infringement intended.
 
 
 ### Web site components
+
 | Section | Details |
 | :-------------     | :------------- |
 | Header | Includes the following: |
 || * ToC Icon|
 || * Name |
 || * Search box |
-| Sections
+| Sections - How To, Fix, Buy, Do more | Each section includes the following |
+|| * Icon/Logo |
+|| * Photo |
+|| * 3 Items (article or list)|
+|| * Link to all items for that section|
+| Sign up banner | Includes: |
+|| * Email signup |
+|| * Facebook Follow Us |
+| Editor's Pick | Includes: |
+|| * Large feature article w/ photo |
+|| * 6 Items (article or list) |
+| Footer | Includes: |
+|| * Email signup |
+|| * Facebook followup |
+|| * Links to sections |
+|| * Links to About Us, Policy statements, etc. |
+| Table of Contents | Displayed when the ToC icon is clicked and includes:|
+|| * Each section with their subsections |
+
 
 
 
