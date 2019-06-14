@@ -18,12 +18,12 @@ export class AppComponent {
   howToSection: Section = new Section
     ("How To", `${this.imgSrc}/hp-howto.png`, `${this.imgSrc}/pexels-photo-2084974.jpeg`, [this.howToItem1, this.howToItem2, this.howToItem3], "#link" );
 
-  fixItem1: Item = new Item("Article", "Wi-Fi Network Not Showing Up", "#link");
-  fixItem2: Item = new Item("Article", "7 Ways to Fix When Chrome is Freezing", "#link");
+  fixItem1: Item = new Item("Article", "Wi-Fi Network Not Showing Up?", "#link");
+  fixItem2: Item = new Item("Article", "Seven Ways to Fix When Chrome is Freezing", "#link");
   fixItem3: Item = new Item("Article", "Is Your Alexa App Offline or is it You?", "#link");
 
   fixSection: Section = new Section 
-    ("Fix", `${this.imgSrc}/hp-fix.png`, `${this.imgSrc}/`, [this.fixItem1, this.fixItem2, this.fixItem3], "#link");
+    ("Fix", `${this.imgSrc}/hp-fix.png`, `${this.imgSrc}/pexels-photo-2115217.jpeg`, [this.fixItem1, this.fixItem2, this.fixItem3], "#link");
 
   buyItem1: Item = new Item("List", "The Best Places to Buy Phones in 2019", "#link");
   buyItem2: Item = new Item("List", "Great Speakers for Outdoor Sound", "#link");

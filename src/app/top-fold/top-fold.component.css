@@ -6,8 +6,13 @@ ul {
 }
 li {
   margin-left: -2em;
+  font-weight: bold;
+  
 }
-
+li:first-child {
+  font-size: 1.2em;
+  font-weight: bold;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
@@ -22,7 +27,11 @@ li {
 }
 #how-to h1 {
   text-decoration: underline;
-  text-decoration-color: lightblue;
+  text-decoration-color: skyblue;
+}
+#fix h1 {
+  text-decoration: underline;
+  text-decoration-color: salmon;
 }
 #howToIcon, #howToPhoto, #fixIcon, #fixPhoto {
   max-width: 250px;
