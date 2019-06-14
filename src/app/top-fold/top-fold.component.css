@@ -1,12 +1,13 @@
 .grid {
   display: grid;
-  background-color: rgba(255, 140, 0, 0.685);
+  grid-template-columns: 4fr;
 }
 #how-to {
   display: grid;
+  border: black solid 1px;
+
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  background-color: rgb(250, 198, 135);
 }
 
 #howToIcon, #howToPhoto {
