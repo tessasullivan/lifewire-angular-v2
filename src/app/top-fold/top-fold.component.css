@@ -33,7 +33,7 @@ img {
 #how-to, #fix, #buy, #do-more {
   display: grid;
   grid-template-columns: 1fr;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   justify-items: center;
 }
 #how-to h1 {
@@ -51,7 +51,7 @@ img {
 #do-more h1 {
   margin-top: 40px;
   text-decoration: underline;
-  text-decoration-color: steelblue;
+  text-decoration-color: rgb(72, 139, 194);
 }
 .type {
   font-variant: small-caps;

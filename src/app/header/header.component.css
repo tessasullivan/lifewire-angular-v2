@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 4fr 3fr 1fr;
+  grid-template-columns: 3fr 5fr 3fr;
 }
 #more {
   margin-top: 30px;
@@ -12,4 +12,5 @@
 }
 #name {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
