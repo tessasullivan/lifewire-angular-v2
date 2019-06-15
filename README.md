@@ -66,6 +66,7 @@ Xianjuan Hu https://unsplash.com/@juaner
 Rafael Saes https://unsplash.com/@rafaelsaes
 Jay Wennington https://unsplash.com/@jaywennington
 Square https://unsplash.com/@squareinc/collections
+History in HD https://unsplash.com/@historyhd
 
 *{This software is licensed under the MIT license}*
 

@@ -37,7 +37,7 @@ export class AppComponent {
   doMoreItem3: Item = new Item("Article", "Play Retro Games on Your PC", "#link");
 
   doMoreSection: Section = new Section
-    ("Do More", `${this.imgSrc}/hp-domore.png`, `${this.imgSrc}/apollo-astronaut-landing-41162.jpg`, [this.doMoreItem1, this.doMoreItem2, this.doMoreItem3], "#link");
+    ("Do More", `${this.imgSrc}/hp-domore.png`, `${this.imgSrc}/history-in-hd-1142826-unsplash.jpg`, [this.doMoreItem1, this.doMoreItem2, this.doMoreItem3], "#link");
 
   topFoldData = [this.howToSection, this.fixSection, this.buySection, this.doMoreSection];
 }
