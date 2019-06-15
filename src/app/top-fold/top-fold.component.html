@@ -13,7 +13,7 @@
       <ul>
         <li *ngFor="let currentItem of tfHowToSection.items">
           <span class='type' >{{currentItem.type}}</span> <br />
-          {{currentItem.title}}<hr></li>
+          <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr></li>
         </ul>
       </div>
     </div>
@@ -31,8 +31,19 @@
         <ul>
           <li *ngFor="let currentItem of tfFixSection.items">
             <span class="type">{{currentItem.type}}</span> <br />
-            {{currentItem.title}} <hr></li>
+            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
         </ul>
+      </div>
     </div>
-  </div>
+    <div id="buy">
+      <div>
+        <img id='buyIcon' src="{{tfBuySection.icon}}" alt="Buy icon" />
+      </div>
+      <div>
+        <h1>Buy</h1>
+      </div>
+      <div>
+        <img id='buyPhoto' src="{{ tfBuySection.photo }}" alt="Buy photo" />
+      </div>
+    </div>
 </div>

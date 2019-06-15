@@ -6,6 +6,6 @@ export class Section {
     public icon: string,  // link to icon image
     public photo: string, // link to photo
     public items: Item[],
-    public allLink: string // link to all items in that section
+    public link: string // link to all items in that section
   ) {}
 }

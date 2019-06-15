@@ -13,12 +13,24 @@ li:first-child {
   font-size: 1.2em;
   font-weight: bold;
 }
+a {
+  color: black;
+}
+a:hover {
+  color: darkorange;
+  text-decoration: none;
+}
+
+img {
+  max-width: 250px;
+  padding-bottom: 5px;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   grid-gap: 5px;
 }
-#how-to, #fix {
+#how-to, #fix, #buy, #do-more {
   display: grid;
   grid-template-columns: 1fr;
   border: 1px solid gray;
@@ -33,11 +45,10 @@ li:first-child {
   text-decoration: underline;
   text-decoration-color: salmon;
 }
-#howToIcon, #howToPhoto, #fixIcon, #fixPhoto {
-  max-width: 250px;
-  padding-bottom: 5px;
+#buy h1 {
+  text-decoration: underline;
+  text-decoration-color: yellowgreen;
 }
-
 .type {
   font-variant: small-caps;
   color: gray;

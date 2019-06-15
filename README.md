@@ -59,6 +59,10 @@ You must have Node.js installed.  Go to [Node.js](https://nodejs.org/en/download
 _Contact Tessa Sullivan @ tessa.sullivan@gmail.com_
 
 ### License
+All icons property of Lifewire.
+Photos - all come from sites which publish photos free for use.
+pexels-photo-2084974.jpeg (http://pexels.com)
+xianjuan-hu-455879-unsplash.jpg (https://unsplash.com/photos/uPYpcsbICI4)
 
 *{This software is licensed under the MIT license}*
 
