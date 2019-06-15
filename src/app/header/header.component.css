@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-columns: 4fr 4fr 3fr;
 }
 #more {
   margin-top: 30px;
