@@ -60,9 +60,12 @@ _Contact Tessa Sullivan @ tessa.sullivan@gmail.com_
 
 ### License
 All icons property of Lifewire.
-Photos - all come from sites which publish photos free for use.
-pexels-photo-2084974.jpeg (http://pexels.com)
-xianjuan-hu-455879-unsplash.jpg (https://unsplash.com/photos/uPYpcsbICI4)
+Photos - all come from unsplash which publish photos free for use.
+
+Xianjuan Hu https://unsplash.com/@juaner
+Rafael Saes https://unsplash.com/@rafaelsaes
+Jay Wennington https://unsplash.com/@jaywennington
+Square https://unsplash.com/@squareinc/collections
 
 *{This software is licensed under the MIT license}*
 
