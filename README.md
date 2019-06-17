@@ -59,9 +59,11 @@ You must have Node.js installed.  Go to [Node.js](https://nodejs.org/en/download
 _Contact Tessa Sullivan @ tessa.sullivan@gmail.com_
 
 ### License
-All icons property of Lifewire.
-Photos - all come from unsplash which publish photos free for use.
+All icons on news section are property of Lifewire.
+The envelope icon comes from Icon Finder (http://www.iconfinder.com)
 
+
+Photos - all come from unsplash which publish photos free for use.
 Xianjuan Hu https://unsplash.com/@juaner
 Rafael Saes https://unsplash.com/@rafaelsaes
 Jay Wennington https://unsplash.com/@jaywennington

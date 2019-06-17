@@ -1,5 +1,8 @@
 .grid {
   background-color: gold;
+  display: grid;
+  grid-template-columns: 2fr, 1fr, 1fr;
+  grid-template-rows: 1fr;
 }
 form {
   padding: 25px;
@@ -17,4 +20,12 @@ button {
   font-size: 16px;
   line-height: 1.5em;
 
+}
+#envelope {
+  max-width: 100px;
+  opacity: 50%;
+  transform: rotate(-20deg);
+}
+#facebook {
+  background-color: #3b5998;
 }

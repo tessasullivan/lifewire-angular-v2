@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { TopFoldComponent } from './top-fold/top-fold.component';
 import { ConnectComponent } from './connect/connect.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
