@@ -1,0 +1,20 @@
+.grid {
+  background-color: gold;
+}
+form {
+  padding: 25px;
+}
+input {
+  width: 30%;
+  line-height: 2.2em;
+}
+label {
+  font-size: 1.1em;
+}
+button {
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5em;
+
+}
