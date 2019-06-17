@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./connect.component.css']
 })
 export class ConnectComponent {
-  @Input() editorsPickData: {};
+  
 
 }

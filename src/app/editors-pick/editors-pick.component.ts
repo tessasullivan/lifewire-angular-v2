@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-editors-pick',
+  selector: 'editors-pick',
   templateUrl: './editors-pick.component.html',
   styleUrls: ['./editors-pick.component.css']
 })
-export class EditorsPickComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class EditorsPickComponent {
+  @Input() editorsPickData: {};
 }
