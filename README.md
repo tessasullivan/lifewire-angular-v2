@@ -60,7 +60,8 @@ _Contact Tessa Sullivan @ tessa.sullivan@gmail.com_
 
 ### License
 All icons on news section are property of Lifewire.
-The envelope icon comes from Icon Finder (http://www.iconfinder.com)
+The envelope icon comes from Icon Finder (http://www.iconfinder.com).
+The speech bubble icon comes from Get Drawings (http://getdrawings.com/speech-bubble-icon).
 
 
 Photos - all come from unsplash which publish photos free for use.
