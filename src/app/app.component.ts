@@ -55,4 +55,6 @@ export class AppComponent {
   editorsPickItem4: Item = new Item("List", "Let Apple TV Help With Travel Plans", "#link");
   editorsPickItem5: Item = new Item("List", "Plan, Pack, And Go With These Apps", "#link");
   editorsPickItem6: Item = new Item("Article", "Google Travel Planner Helps With Summer Trips", "#link");
+
+  editorsPickData = [this.editorsPickMainItem, this.editorsPickItem1, this.editorsPickItem2, this.editorsPickItem3, this.editorsPickItem4, this.editorsPickItem5, this.editorsPickItem6];  
 }
