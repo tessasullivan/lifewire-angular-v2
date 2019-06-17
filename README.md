@@ -46,7 +46,7 @@ You must have Node.js installed.  Go to [Node.js](https://nodejs.org/en/download
 4. Run ```ng serve -o``` This will load the application in your browser at ```http://localhost:4200```.
 
 ## Known Issues
-* No known issues at this time.
+* Currently, only 3/4 of the front end has been reproduced, none of the website functionality has been added yet.
 
 ## Technologies Used
 
