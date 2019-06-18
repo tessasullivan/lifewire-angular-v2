@@ -1,0 +1,33 @@
+{
+  "sections": [{
+    "section":"Editor's Pick Primary",
+    "icon": "",
+    "photo": "../../assets/img/element5-digital-645841-unsplash.jpg",
+    "url": "#link",
+    "id": "1"
+  }, {
+  "section": "Do More",
+  "icon": "../../assets/img/hp-domore.png",
+  "photo": "../../assets/img/history-in-hd-1142826-unsplash.jpg",
+  "url": "#link" ,
+  "id": "2"   
+}, {
+  "section": "How To",
+  "icon": "../../assets/img/hp-howto.png",
+  "photo": "../../assets/img/photo-1555939327-48d6fd8a5ee2.jpeg",
+  "url": "#link",
+  "id": "3"    
+}, {
+  "section": "Fix",
+  "icon": "../../assets/img/hp-fix.png",
+  "photo": "../../assets/img/photo-1506506200949-df8644f002d1.jpeg",
+  "url": "#link", 
+  "id": "4"   
+}, {
+  "section": "Buy",
+  "icon": "../../assets/img/hp-buy.png",
+  "photo": "../../assets/img/xianjuan-hu-455879-unsplash.jpg",
+  "url": "#link",
+  "id": "5"   
+  }]
+}

@@ -70,6 +70,7 @@ Rafael Saes https://unsplash.com/@rafaelsaes
 Jay Wennington https://unsplash.com/@jaywennington
 Square https://unsplash.com/@squareinc/collections
 History in HD https://unsplash.com/@historyhd
+Element5 Digital https://unsplash.com/@element5digital
 
 *{This software is licensed under the MIT license}*
 

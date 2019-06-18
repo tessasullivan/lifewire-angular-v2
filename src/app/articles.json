@@ -1,0 +1,118 @@
+{
+  "articles": [{
+    "section": "How To",
+    "type": "Article",
+    "title": "Start Creating with Canva today",
+    "url":  "#link",
+    "id": "1"
+    }, {
+    "section": "How To",
+    "type": "List",
+    "title": "Shooting Camera Raw can be a Game Changer",
+    "url": "#link",
+    "id": "2"
+    }, {
+    "section": "How To",
+    "type": "Article",
+    "title":"Download Pictures from Your Computer",
+    "url": "#link",
+    "id": "3"
+    }, {
+    "section": "Fix",
+    "type": "Article",
+    "title": "Wi-Fi Network Not Showing Up?",
+    "url": "#link",
+    "id": "4"
+    }, {
+    "section": "Fix",
+    "type": "Article",
+    "title": "Seven Ways to Fix When Chrome is Freezing",
+    "url": "#link",
+    "id": "5"
+    }, {
+    "section": "Fix",
+    "type": "Article",
+    "title": "Is Your Alexa App Offline or is it You?",
+    "url": "#link",
+    "id": "6"
+    }, {
+    "section": "Buy",
+    "type": "List",
+    "title": "The Best Places to Buy Phones in 2019",
+    "url": "#link",
+    "id": "7"
+    }, {    
+    "section": "Buy",
+    "type": "List",
+    "title": "Great Speakers for Outdoor Sound",
+    "url": "#link",
+    "id": "8"
+    }, {    
+    "section": "Buy",
+    "type": "List",
+    "title": "Best Xbox One Role Playing Games",
+    "url": "#link",
+    "id": "9"
+    }, {
+    "section": "Do More",
+    "type": "Article",
+    "title": "What Does Apollo 11 Have to do with Tech?",
+    "url": "#link",
+    "id": "10"
+    }, {
+    "section": "Do More",
+    "type": "Article",
+    "title": "The Best Video Chat App You Aren't Using", 
+    "url": "#link",
+    "id": "11"
+    }, {
+    "section": "Do More",
+    "type": "Article",
+    "title": "Play Retro Games on Your PC", 
+    "url": "#link",
+    "id": "12"
+    }, {
+    "section": "Editor's Pick Primary",
+    "type": "Article",
+    "title": "Apps To Help You Plan Summer Adventures", 
+    "url": "#link",
+    "id": "13",
+    "blurb": "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing."
+    }, {   
+    "section": "Editor's Pick",
+    "type": "List",
+    "title": "Make Summer Travel Easier with Tech",
+    "url": "#link",
+    "id": "14"
+    }, {
+    "section": "Editor's Pick",
+    "type": "List",
+    "title": "Take Your Tech Essentials On The Road",
+    "url": "#link",
+    "id": "15" 
+    }, {   
+    "section": "Editor's Pick",
+    "type": "Article",
+    "title":  "Don't Share This On Facebook While You Travel",
+    "url": "#link",
+    "id": "16"
+    }, {   
+    "section": "Editor's Pick",
+    "type": "List",
+    "title": "Let Apple TV Help With Travel Plans",
+    "url": "#link",
+    "id": "17"
+    }, {
+    "section": "Editor's Pick",
+    "type": "List",
+    "title": "Plan, Pack, And Go With These Apps",
+    "url": "#link",
+    "id": "18" 
+    }, {   
+    "section": "Editor's Pick",
+    "type": "Article",
+    "title":  "Google Travel Planner Helps With Summer Trips",
+    "url": "#link",
+    "id": "19"      
+    }]
+}
