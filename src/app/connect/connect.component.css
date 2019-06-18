@@ -5,15 +5,16 @@
   /* grid-template-columns: 2fr, 1fr, 1fr;
   grid-template-rows: 1fr; */
   grid-template:
-  "email envelope speech facebook";
+  "email email envelope speech facebook";
   grid-gap:5px;
+  align-items: center;
 }
 form {
   grid-area: email;
   padding: 25px;
 }
 input {
-  width: 30%;
+  width: 50%;
   line-height: 2.2em;
 }
 label {
@@ -26,25 +27,27 @@ button {
   line-height: 1.5em;
 
 }
-#envelope {
+/* #envelope {
   grid-area: envelope;
-  max-width: 100px;
+  max-width: 75px;
   opacity: 50%;
   transform: rotate(-20deg);
   grid-column-start: 2;
 }
-#facebook {
-  background-color: #3b5998;
-  width: 100px;
-  height: 40px;
-  border: 0px;
-  color: white;
-  display: block;
-  font-size: 16px;
-  text-align: center;
-  grid-area: facebook;
-}
 #speech {
-  max-width: 100px;
+  max-width: 75px;
   grid-area: speech;
+  opacity: 50%;
+} */
+#email-speech {
+  max-width: 150px;
+}
+#facebook {
+  justify-self: right;
+  grid-area: facebook;
+  max-width: 125px;
+}
+p {
+  font-weight: bold;
+  font-size: 1.3em;
 }
