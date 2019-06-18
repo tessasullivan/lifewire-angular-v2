@@ -24,6 +24,7 @@ a:hover {
 img {
   max-width: 250px;
   padding-bottom: 5px;
+  object-fit: cover;
 }
 .grid {
   display: grid;
