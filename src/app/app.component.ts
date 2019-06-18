@@ -44,7 +44,7 @@ export class AppComponent {
   // editors-pick data
   
   editorsPickMainItem = {
-    photo: `${this.imgSrc}`,
+    photo: `${this.imgSrc}/element5-digital-645841-unsplash.jpg`,
     title: "Apps To Help You Plan Summer Adventures", 
     description: "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing.", 
     link: "#link"
@@ -56,5 +56,5 @@ export class AppComponent {
   editorsPickItem5: Item = new Item("List", "Plan, Pack, And Go With These Apps", "#link");
   editorsPickItem6: Item = new Item("Article", "Google Travel Planner Helps With Summer Trips", "#link");
 
-  editorsPickData = [this.editorsPickMainItem, this.editorsPickItem1, this.editorsPickItem2, this.editorsPickItem3, this.editorsPickItem4, this.editorsPickItem5, this.editorsPickItem6];  
+  editorsPickSection: Section = new Section  ("Title", "icon", "photo", [this.editorsPickItem1, this.editorsPickItem2, this.editorsPickItem3, this.editorsPickItem4, this.editorsPickItem5, this.editorsPickItem6], "#link");  
 }

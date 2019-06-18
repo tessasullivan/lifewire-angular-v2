@@ -3,9 +3,13 @@
     <h1>EDITOR'S PICK</h1>
   </div>
   <div>
-    <img id='photo' src='../../assets/img' />
+    <!-- <img id='photo' src='../../assets/img' /> -->
+    <img id='photo' src= {{editorsPickMainItem.photo}}/>
   </div>
   <div>
-    <h1 id='title'>{{editorsPick[0].title}}</h1>
+    <h1 id='title'>{{editorsPickMainItem.title}}</h1>
+  </div>
+  <div>
+    <p id='description'>{{editorsPickMainItem.description}}</p>
   </div>
 </div>

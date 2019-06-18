@@ -1,20 +1,22 @@
 
 .grid {
-  background-color: gold;
+  background-color: rgb(252, 202,42);
   display: grid;
   /* grid-template-columns: 2fr, 1fr, 1fr;
   grid-template-rows: 1fr; */
   grid-template:
-  "email email envelope speech facebook";
+  "email email email-speech facebook";
   grid-gap:5px;
   align-items: center;
+  /* justify-items: end; */
 }
 form {
   grid-area: email;
   padding: 25px;
+  /* justify-self: start; */
 }
 input {
-  width: 50%;
+  width: 80%;
   line-height: 2.2em;
 }
 label {
@@ -25,25 +27,15 @@ button {
   color: white;
   font-size: 16px;
   line-height: 1.5em;
+}
 
-}
-/* #envelope {
-  grid-area: envelope;
-  max-width: 75px;
-  opacity: 50%;
-  transform: rotate(-20deg);
-  grid-column-start: 2;
-}
-#speech {
-  max-width: 75px;
-  grid-area: speech;
-  opacity: 50%;
-} */
 #email-speech {
   max-width: 150px;
+  grid-area: email-speech;
+  /* justify-self: end; */
 }
 #facebook {
-  justify-self: right;
+  /* justify-self: end; */
   grid-area: facebook;
   max-width: 125px;
 }
