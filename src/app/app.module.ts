@@ -5,12 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TopFoldComponent } from './top-fold/top-fold.component';
+import { ConnectComponent } from './connect/connect.component';
+import { EditorsPickComponent } from './editors-pick/editors-pick.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TopFoldComponent
+    TopFoldComponent,
+    ConnectComponent,
+    EditorsPickComponent
   ],
   imports: [
     BrowserModule,

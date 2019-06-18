@@ -28,12 +28,13 @@ img {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 3fr);
+  grid-template: auto / repeat(4, 1fr);
   grid-gap: 8px;
 }
 #how-to, #fix, #buy, #do-more {
   display: grid;
   grid-template-columns: 1fr;
+  align-content: center;
   /* border: 1px solid gray; */
   justify-items: center;
 }

@@ -1,0 +1,50 @@
+
+.grid {
+  background-color: gold;
+  display: grid;
+  /* grid-template-columns: 2fr, 1fr, 1fr;
+  grid-template-rows: 1fr; */
+  grid-template:
+  "email envelope speech facebook";
+  grid-gap:5px;
+}
+form {
+  grid-area: email;
+  padding: 25px;
+}
+input {
+  width: 30%;
+  line-height: 2.2em;
+}
+label {
+  font-size: 1.1em;
+}
+button {
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5em;
+
+}
+#envelope {
+  grid-area: envelope;
+  max-width: 100px;
+  opacity: 50%;
+  transform: rotate(-20deg);
+  grid-column-start: 2;
+}
+#facebook {
+  background-color: #3b5998;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  color: white;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  grid-area: facebook;
+}
+#speech {
+  max-width: 100px;
+  grid-area: speech;
+}

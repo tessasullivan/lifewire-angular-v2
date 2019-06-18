@@ -40,4 +40,21 @@ export class AppComponent {
     ("Do More", `${this.imgSrc}/hp-domore.png`, `${this.imgSrc}/history-in-hd-1142826-unsplash.jpg`, [this.doMoreItem1, this.doMoreItem2, this.doMoreItem3], "#link");
 
   topFoldData = [this.howToSection, this.fixSection, this.buySection, this.doMoreSection];
+
+  // editors-pick data
+  
+  editorsPickMainItem = {
+    photo: `${this.imgSrc}`,
+    title: "Apps To Help You Plan Summer Adventures", 
+    description: "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing.", 
+    link: "#link"
+  };
+  editorsPickItem1: Item = new Item("List", "Make Summer Travel Easier with Tech", "#link");
+  editorsPickItem2: Item = new Item("List", "Take Your Tech Essentials On The Road", "#link");
+  editorsPickItem3: Item = new Item("Article", "Don't Share This On Facebook While You Travel", "#link");
+  editorsPickItem4: Item = new Item("List", "Let Apple TV Help With Travel Plans", "#link");
+  editorsPickItem5: Item = new Item("List", "Plan, Pack, And Go With These Apps", "#link");
+  editorsPickItem6: Item = new Item("Article", "Google Travel Planner Helps With Summer Trips", "#link");
+
+  editorsPickData = [this.editorsPickMainItem, this.editorsPickItem1, this.editorsPickItem2, this.editorsPickItem3, this.editorsPickItem4, this.editorsPickItem5, this.editorsPickItem6];  
 }
