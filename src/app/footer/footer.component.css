@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  background-color: rgb(63, 63, 63);
+  grid-template-areas:
+  'logo . . .'
+  'email mainmenu menu1 menu2';
+}
+#email {
+  grid-area: email;
+}
+#mainmenu {
+  grid-area: mainmenu;
+}
+#footer-menu1 {
+  grid-area: menu1;
+}
+#footer-menu2 {
+  grid-area: menu2;
+}
+form {
+  grid-area: email;
+  padding: 25px;
+}
+input {
+  width: 80%;
+  line-height: 2.2em;
+}
+label {
+  font-size: 1.1em;
+  color: white;
+}
+button {
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5em;
+  border: 1px solid #ff6600;
+}
+#logo img {
+  max-width: 150px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+ul {
+  list-style: none;
+}
+#mainmenu li {
+  margin-bottom: 10px;
+
+}
+#mainmenu a {
+  font-weight: bold;
+  color: white;
+}
+#mainmenu a:hover{
+  color: rgb(247, 206, 70);
+  text-decoration: none;
+  cursor: pointer;
+}
+li, p {
+  color: white;
+}
+#footer-menu1 a:hover, #footer-menu2 a:hover {
+  text-decoration: underline;
+}
+#facebook {
+  margin: 25px;
+}
+#facebook img {
+  max-width: 100px;
+}

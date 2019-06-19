@@ -37,6 +37,7 @@ hr {
   justify-self: start;
 }
 .grid {
+  margin: 50px;
   display: grid;
   grid-gap: 8px;
   grid-template: 
