@@ -4,7 +4,7 @@
       <img id='howToIcon' src="{{ tfHowToSection.icon }}" alt='How To Icon' />
     </div>
     <div>
-      <h1>How To</h1>
+      <h1 id="howToH1">How To</h1>
     </div>
     <div>
       <img id='howToPhoto' src="{{ tfHowToSection.photo }}" alt='photo' />
@@ -13,11 +13,11 @@
       <ul>
         <li *ngFor="let currentItem of tfHowToSection.items">
           <span class='type' >{{currentItem.type}}</span> <br />
-          <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr></li>
+          <a id="{{currentItem.id}}" href="{{currentItem.link}}">{{currentItem.title}}</a><hr></li>
         </ul>
       </div>
       <div>
-        <a class="allLink" href="{{tfHowToSection.url}}">ALL HOW TO <span class="arrow">&rarr;</span></a>
+        <a class="allLink" href="{{tfHowToSection.url}}">All how to <span class="arrow">&rarr;</span></a>
       </div>
     </div>
     <div id='fix'>
@@ -25,7 +25,7 @@
         <img id='fixIcon' src="{{tfFixSection.icon}}" alt='Fix Icon' />
       </div>
       <div>
-        <h1>Fix</h1>
+        <h1 id="fixH1">Fix</h1>
       </div>
       <div>
         <img id='fixPhoto' src="{{ tfFixSection.photo }}" alt='Fix Photo' />
@@ -38,7 +38,7 @@
         </ul>
       </div>
       <div>
-          <a class="allLink" href="{{tfFixSection.url}}">ALL FIX <span class="arrow">&rarr;</span></a>
+          <a class="allLink" href="{{tfFixSection.url}}">All Fix<span class="arrow">&rarr;</span></a>
       </div>
     </div>
     <div id="buy">
@@ -46,7 +46,7 @@
         <img id='buyIcon' src="{{tfBuySection.icon}}" alt="Buy icon" />
       </div>
       <div>
-        <h1>Buy</h1>
+        <h1 id='buyH1'>Buy</h1>
       </div>
       <div>
         <img id='buyPhoto' src="{{ tfBuySection.photo }}" alt="Buy photo" />
@@ -59,7 +59,7 @@
         </ul>
       </div>
       <div>
-        <a class="allLink" href="{{tfBuySection.url}}">ALL BUY <span class="arrow">&rarr;</span></a>
+        <a class="allLink" href="{{tfBuySection.url}}">All buy<span class="arrow">&rarr;</span></a>
       </div>
     </div>
     <div id='do-more'>
@@ -67,7 +67,7 @@
         <img id='do-moreIcon' src="{{tfDoMoreSection.icon}}" alt='Do More icon' />
       </div>
       <div>
-        <h1>Do More</h1>
+        <h1 id="doMoreH1">Do More</h1>
       </div>
     <div>
       <img id='do-morePhoto' src="{{tfDoMoreSection.photo}}" alt="Do more photo" />
@@ -80,6 +80,6 @@
       </ul>
     </div>
     <div>
-        <a class="allLink" href="{{tfDoMoreSection.url}}">ALL DO MORE<span class="arrow">&rarr;</span></a>
+        <a class="allLink" href="{{tfDoMoreSection.url}}">All Do More<span class="arrow">&rarr;</span></a>
     </div>
 </div>

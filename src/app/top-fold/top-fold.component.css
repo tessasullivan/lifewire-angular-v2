@@ -1,4 +1,7 @@
 
+/* div {
+  border: 1px solid gray;
+} */
 h1 {
   text-align: center;
 }
@@ -6,12 +9,11 @@ ul {
   list-style: none;
 }
 li {
-  margin-left: -2em;
+  margin-left: -1em;
   font-weight: bold;
-  
 }
 li:first-child {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 a {
@@ -23,26 +25,31 @@ a:hover {
 }
 
 img {
-  max-width: 250px;
+  max-width: 275px;
   padding-bottom: 5px;
-  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 hr {
-  border: 1px solid rgba(228, 226, 226, 0.904);
+  border: 1px solid rgb(243, 240, 240);
+  width: 90%;
+  justify-self: start;
 }
 .grid {
   display: grid;
-  grid-template: auto / repeat(4, 1fr);
   grid-gap: 8px;
-  
+  grid-template: 
+  "howToIcon fixIcon buyIcon do-moreIcon"
+  "howToH1 fixH1 buyH1 doMoreH1"
+  "howToPhoto fixPhoto buyPhoto do-morePhoto"
+  "howto1 fix1 buy1 domore1"
+  "howto2 fix1 buy2 domore2"
+  "howto3 fix1 buy3 domore3"
+
 }
-#how-to, #fix, #buy, #do-more {
-  /* border: 1px solid gray; */
-  display: grid;
-  grid-template-columns: 1fr;
-  align-content: center;
-  /* border: 1px solid gray; */
-  justify-items: center;
+#how-to, #fix, #do-more, #buy {
+  background-color: white;
 }
 #how-to h1 {
   text-decoration: underline;
@@ -57,14 +64,10 @@ hr {
   text-decoration-color: yellowgreen;
 }
 #do-more h1 {
-  /* margin-top: 25px; */
-  margin-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: rgb(72, 139, 194);
 }
-#do-more img {
-  margin-bottom: 12px;
-}
+
 .type {
   font-variant: small-caps;
   color: gray;
@@ -73,6 +76,8 @@ hr {
   color: darkorange; 
 }
 .allLink {
-  justify-self: start;
-  font-variant: small-caps; 
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-variant: small-caps;
+  font-weight: bold; 
 }
