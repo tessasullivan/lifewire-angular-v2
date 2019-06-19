@@ -46,7 +46,15 @@ hr {
   "howto1 fix1 buy1 domore1"
   "howto2 fix1 buy2 domore2"
   "howto3 fix1 buy3 domore3"
-
+}
+#howtoH1 {
+  grid-area: howtoH1;
+}
+#howtoH2 {
+  grid-area: howtoH2;
+}
+#howtoH3 {
+  grid-area: howtoH3;
 }
 #how-to, #fix, #do-more, #buy {
   background-color: white;

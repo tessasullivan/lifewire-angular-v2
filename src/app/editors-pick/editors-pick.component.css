@@ -1,3 +1,44 @@
+/* 
+div {
+  border: 1px solid gray;
+} */
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: darkorange;
+  font-size: 1.75em;
+}
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+  'header header header' 
+  'photo title ad'
+  'photo blurb ad'
+  'photo blurb ad'
+  ;
+  margin-top: 20px;
+}
 #photo {
-  max-width: 80%;
+  grid-area: photo;
+  display: inline-block;
+  width: 33%;
+}
+#description {
+  grid-area: blurb;
+}
+#title {
+  grid-area: title;
+  font-size: 1.5em;
+} 
+#header {
+  grid-area: header;
+}
+#ad {
+  display:block;
+  background-color: darkblue;
+  height: 200px;
+  color: white;
+  text-align: center;
 }
