@@ -11,7 +11,7 @@ li {
   
 }
 li:first-child {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 a {
@@ -34,9 +34,10 @@ hr {
   display: grid;
   grid-template: auto / repeat(4, 1fr);
   grid-gap: 8px;
-  background: linear-gradient(to bottom,#fff 15%,#F0F0F0 30%);
+  
 }
 #how-to, #fix, #buy, #do-more {
+  /* border: 1px solid gray; */
   display: grid;
   grid-template-columns: 1fr;
   align-content: center;
