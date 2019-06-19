@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { TopFoldComponent } from './top-fold/top-fold.component';
 import { ConnectComponent } from './connect/connect.component';
 import { EditorsPickComponent } from './editors-pick/editors-pick.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { EditorsPickComponent } from './editors-pick/editors-pick.component';
     HeaderComponent,
     TopFoldComponent,
     ConnectComponent,
-    EditorsPickComponent
+    EditorsPickComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
