@@ -1,21 +1,25 @@
-<div id="grid">
-  <div>
-    <h1 id='header'>EDITORS' PICK</h1>
+<div class="grid">
+
+  <div id='header'>
+    <h1>EDITORS' PICK</h1>
   </div>
 
 
-  <div>
-    <img id='photo' src= {{editorsPickMainItem.photo}}/>
+  <div id='photo'>
+    <img  src= {{editorsPickMainItem.photo}}/>
   </div>
 
-  <div>
-    <p id='title'>{{editorsPickMainItem.title}}</p>
-    <p id='description'>{{editorsPickMainItem.description}}</p>
+  <div id='title'>
+    <p >{{editorsPickMainItem.title}}</p>
+  </div>
+  <div id='description'>
+    <p>{{editorsPickMainItem.description}}</p>
   </div>
 
   <div id="ad">Your ad here</div>
 
-  <div>
+  <div *ngFor="let currentItem of editorsPickSection.items" id="{{currentItem.id}}" >
+      <span class='type' >{{currentItem.type}}</span> <br />
+      <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
   </div>
-
-</div>
+</div>  

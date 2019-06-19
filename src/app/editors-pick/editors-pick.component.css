@@ -1,7 +1,8 @@
-/* 
+
 div {
-  border: 1px solid gray;
-} */
+  background-color: white;
+  /* border: 1px solid gray; */
+}
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -13,17 +14,21 @@ h1 {
   grid-gap: 5px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-  'header header header' 
+  '. header .' 
   'photo title ad'
   'photo blurb ad'
-  'photo blurb ad'
+  'photo . ad'
+  'photo . ad'
+  'ep1 ep4 ad'
+  'ep2 ep5 ad'
+  'ep3 ep6 ad'
   ;
   margin-top: 20px;
 }
+
 #photo {
   grid-area: photo;
   display: inline-block;
-  width: 33%;
 }
 #description {
   grid-area: blurb;
@@ -37,8 +42,46 @@ h1 {
 }
 #ad {
   display:block;
-  background-color: darkblue;
-  height: 200px;
+  background-color: #545556;
+  /* height: 200px; */
   color: white;
   text-align: center;
+  grid-area: ad;
+}
+#ep1 {
+  grid-area: ep1;
+}
+#ep2 {
+  grid-area: ep2;
+}
+#ep3 {
+  grid-area: ep3;
+}
+#ep4 {
+  grid-area: ep4;
+}
+#ep5 {
+  grid-area: ep5;
+}
+#ep6 {
+  grid-area: ep6;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-left: -1em;
+  font-weight: bold;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: darkorange;
+  text-decoration: none;
+}
+hr {
+  border: 1px solid rgb(243, 240, 240);
+  width: 90%;
+  justify-self: start;
 }
