@@ -1,7 +1,7 @@
 import { Item } from './models/item.model';
 import { Section } from './models/section.model';
 
-const imgSrc = '../../assets/img';
+export const imgSrc = '../../assets/img';
 
 // top-fold data
 let howToItem1: Item = new Item ("Article", "Get Your New Galaxy Buds Set Up", "#link","howto1");
@@ -19,7 +19,7 @@ let doMoreItem3: Item = new Item("Article", "What Does Apollo 11 Have to do with
 
 export const TOPFOLD: Section[] = [
   new Section
-    ("How To", `${this.imgSrc}/hp-howto.png`, `${this.imgSrc}/photo-1555939327-48d6fd8a5ee2.jpeg`, [howToItem1, howToItem2, howToItem3], "#link" ),
+    ("How To", `${imgSrc}/hp-howto.png`, `${imgSrc}/photo-1555939327-48d6fd8a5ee2.jpeg`, [howToItem1, howToItem2, howToItem3], "#link" ),
   new Section 
     ("Fix", `${imgSrc}/hp-fix.png`, `${imgSrc}/aaron-burden-329406-unsplash.jpg`, [fixItem1, fixItem2, fixItem3], "#link"),
   new Section
