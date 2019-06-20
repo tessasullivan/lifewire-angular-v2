@@ -12,6 +12,7 @@ import { ConnectComponent } from './connect/connect.component';
 import { EditorsPickComponent } from './editors-pick/editors-pick.component';
 import { FooterComponent } from './footer/footer.component';
 import { masterFirebaseConfig } from './api-keys';
+import { DummyComponent } from './dummy/dummy.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const imgSrc = '../../assets/img';
     TopFoldComponent,
     ConnectComponent,
     EditorsPickComponent,
-    FooterComponent
+    FooterComponent,
+    DummyComponent
   ],
   imports: [
     BrowserModule,
