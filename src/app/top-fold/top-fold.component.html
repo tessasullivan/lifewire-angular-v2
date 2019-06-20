@@ -1,26 +1,26 @@
 <div class="grid">
   <div id="how-to">
-    <div>
-      <img id='howToIcon' src="{{ tfHowToSection.icon }}" alt='How To Icon' />
+    <div *ngFor="let how of howTo | async">
+      <img id='howToIcon' src="{{ how.icon }}" alt='How To Icon' />
     </div>
     <div>
       <h1 id="howToH1">How To</h1>
     </div>
-    <div>
-      <img id='howToPhoto' src="{{ tfHowToSection.photo }}" alt='photo' />
+    <div *ngFor="let how of howTo | async">
+      <img id='howToPhoto' src="{{ how.photo }}" alt='photo' />
     </div>
     <div>
       <ul>
-        <li *ngFor="let currentItem of tfHowToSection.items">
+        <li *ngFor="let currentItem of howTo.items | async">
           <span class='type' >{{currentItem.type}}</span> <br />
           <a id="{{currentItem.id}}" href="{{currentItem.link}}">{{currentItem.title}}</a><hr></li>
         </ul>
       </div>
-      <div>
+  <!--     <div>
         <a class="allLink" href="{{tfHowToSection.url}}">All how to <span class="arrow">&rarr;</span></a>
       </div>
-    </div>
-    <div id='fix'>
+    </div> -->
+    <!-- <div id='fix'>
       <div>
         <img id='fixIcon' src="{{tfFixSection.icon}}" alt='Fix Icon' />
       </div>
@@ -81,5 +81,5 @@
     </div>
     <div>
         <a class="allLink" href="{{tfDoMoreSection.url}}">All Do More<span class="arrow">&rarr;</span></a>
-    </div>
+    </div> -->
 </div>

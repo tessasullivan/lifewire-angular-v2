@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   selector: 'top-fold',
   templateUrl: './top-fold.component.html',
   styleUrls: ['./top-fold.component.css'],
-  providers: []
+  providers: [DataService]
 })
 export class TopFoldComponent implements OnInit {
   constructor(private router: Router, private dataService: DataService) {}
@@ -18,6 +18,7 @@ export class TopFoldComponent implements OnInit {
   buy: FirebaseListObservable<any[]>;
   doMore: FirebaseListObservable<any[]>;
 
+  howToList: any;
   // @Input() tfHowToSection: Section;
   // @Input() tfFixSection: Section;
   // @Input() tfBuySection: Section;
@@ -25,6 +26,7 @@ export class TopFoldComponent implements OnInit {
 
 
   ngOnInit() {
+    this.howTo = this.dataService.getHowToSection();
   }
 
   getItems(clickedSection) {
