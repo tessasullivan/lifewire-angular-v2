@@ -10,55 +10,55 @@
       <img id='howToPhoto' src="{{ how.photo }}" alt='photo' />
     </div>
     <div>
-      <ul>
-        <li *ngFor="let currentItem of howTo.items | async">
+      <ul *ngFor="let how of howTo | async">
+        <li *ngFor="let currentItem of how.items | async">
           <span class='type' >{{currentItem.type}}</span> <br />
           <a id="{{currentItem.id}}" href="{{currentItem.link}}">{{currentItem.title}}</a><hr></li>
         </ul>
       </div>
-  <!--     <div>
-        <a class="allLink" href="{{tfHowToSection.url}}">All how to <span class="arrow">&rarr;</span></a>
+    <div *ngFor="let how of howTo | async">
+      <a class="allLink" href="{{how.url}}">All how to <span class="arrow">&rarr;</span></a>
       </div>
-    </div> -->
-    <!-- <div id='fix'>
-      <div>
-        <img id='fixIcon' src="{{tfFixSection.icon}}" alt='Fix Icon' />
+    </div>
+    <div id='fix'>
+      <div *ngFor="let f of fix | async">
+        <img id='fixIcon' src="{{f.icon}}" alt='Fix Icon' />
       </div>
       <div>
         <h1 id="fixH1">Fix</h1>
       </div>
-      <div>
-        <img id='fixPhoto' src="{{ tfFixSection.photo }}" alt='Fix Photo' />
+      <div *ngFor="let f of fix | async">
+        <img id='fixPhoto' src="{{ f.photo }}" alt='Fix Photo' />
       </div>
       <div>
-        <ul>
-          <li *ngFor="let currentItem of tfFixSection.items">
+        <ul *ngFor="let f of fix | async">
+          <li *ngFor="let currentItem of f.items">
             <span class="type">{{currentItem.type}}</span> <br />
             <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
         </ul>
       </div>
-      <div>
-          <a class="allLink" href="{{tfFixSection.url}}">All Fix<span class="arrow">&rarr;</span></a>
+      <div *ngFor="let f of fix | async">
+          <a class="allLink" href="{{f.url}}">All Fix<span class="arrow">&rarr;</span></a>
       </div>
     </div>
     <div id="buy">
-      <div>
-        <img id='buyIcon' src="{{tfBuySection.icon}}" alt="Buy icon" />
+      <div *ngFor="let b of buy | async">
+        <img id='buyIcon' src="{{b.icon}}" alt="Buy icon" />
       </div>
       <div>
         <h1 id='buyH1'>Buy</h1>
       </div>
-      <div>
-        <img id='buyPhoto' src="{{ tfBuySection.photo }}" alt="Buy photo" />
+      <div *ngFor="let b of buy | async">
+        <img id='buyPhoto' src="{{ b.photo }}" alt="Buy photo" />
       </div>
-      <div>
-        <ul>
-          <li *ngFor="let currentItem of tfBuySection.items">
+       <div>
+        <ul *ngFor="let b of buy | async">
+          <li *ngFor="let currentItem of b.items">
               <span class="type">{{currentItem.type}}</span> <br />
               <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
         </ul>
       </div>
-      <div>
+<!--      <div>
         <a class="allLink" href="{{tfBuySection.url}}">All buy<span class="arrow">&rarr;</span></a>
       </div>
     </div>

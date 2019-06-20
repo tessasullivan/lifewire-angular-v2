@@ -18,15 +18,11 @@ export class TopFoldComponent implements OnInit {
   buy: FirebaseListObservable<any[]>;
   doMore: FirebaseListObservable<any[]>;
 
-  howToList: any;
-  // @Input() tfHowToSection: Section;
-  // @Input() tfFixSection: Section;
-  // @Input() tfBuySection: Section;
-  // @Input() tfDoMoreSection: Section;
-
-
   ngOnInit() {
     this.howTo = this.dataService.getHowToSection();
+    this.fix = this.dataService.getFixSection();
+    this.buy = this.dataService.getBuySection();
+    this.doMore = this.dataService.getDoMoreSection();
   }
 
   getItems(clickedSection) {
