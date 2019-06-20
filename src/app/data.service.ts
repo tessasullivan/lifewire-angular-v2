@@ -1,5 +1,3 @@
-// import { Item } from './models/item.model';
-// import { Section } from './models/section.model';
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
@@ -7,18 +5,33 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
   providedIn: 'root'
 })
 export class DataService {
-  articles: FirebaseListObservable<any[]>;
-  sections: FirebaseListObservable<any[]>;
+  howTo: FirebaseListObservable<any[]>;
+  fix: FirebaseListObservable<any[]>;
+  doMore: FirebaseListObservable<any[]>;
+  buy: FirebaseListObservable<any[]>;
+  editorsPick: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) { 
-    this.articles = database.list('articles');
-    this.sections = database.list('sections');
+    this.howTo = database.list('how-to');
+    this.fix = database.list('fix');
+    this.buy = database.list('buy');
+    this.doMore = database.list('do-more');
+    this.editorsPick = database.list('editors-pick');
   }
 
-  getArticles() {
-    return this.articles;
+  getHowToSection() {
+    return this.howTo;
   }
-  getSections() {
-    return this.sections;
+  getFixSection() {
+    return this.fix;
+  }
+  getBuySection() {
+    return this.buy;
+  }
+  getDoMoreSection() {
+    return this.doMore;
+  }
+  getEditorsPickSection() {
+    return this.editorsPick;
   }
 }

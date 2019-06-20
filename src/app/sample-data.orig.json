@@ -1,149 +1,152 @@
 {
-  "articles": [{
-    "section": "How To",
-    "type": "Article",
-    "title": "Get Your New Galaxy Buds Set Up",
-    "url":  "#link",
-    "id": "1"
-    }, {
-    "section": "How To",
-    "type": "List",
-    "title": "Start Creating with Canva today",
-    "url": "#link",
-    "id": "2"
-    }, {
-    "section": "How To",
-    "type": "Article",
-    "title":"Shooting Camera Raw can be a Game Changer",
-    "url": "#link",
-    "id": "3"
-    }, {
-    "section": "Fix",
-    "type": "Article",
-    "title": "Quick Fixes for Samsung S-Pen",
-    "url": "#link",
-    "id": "4"
-    }, {
-    "section": "Fix",
-    "type": "Article",
-    "title": "Wi-Fi Network Not Showing Up?",
-    "url": "#link",
-    "id": "5"
-    }, {
-    "section": "Fix",
-    "type": "Article",
-    "title": "7 Ways to Fix When Chrome is Freezing",
-    "url": "#link",
-    "id": "6"
-    }, {
-    "section": "Buy",
-    "type": "List",
-    "title": "Get Ready: Pregnancy Apps For Dads",
-    "url": "#link",
-    "id": "7"
-    }, {    
-    "section": "Buy",
-    "type": "List",
-    "title": "The 8 Best Places to Buy Phones in 2019",
-    "url": "#link",
-    "id": "8"
-    }, {    
-    "section": "Buy",
-    "type": "List",
-    "title": "Great Speakers for Outdoor Sound",
-    "url": "#link",
-    "id": "9"
-    }, {
-    "section": "Do More",
-    "type": "Article",
-    "title": "Why Should You Use A VPN",
-    "url": "#link",
-    "id": "10"
-    }, {
-    "section": "Do More",
-    "type": "Article",
-    "title": "What Does Apollo 11 Have to do with Tech?",
-    "url": "#link",
-    "id": "11"
-    }, {
-    "section": "Do More",
-    "type": "Article",
-    "title": "The Best Video Chat App You Aren't Using",  
-    "url": "#link",
-    "id": "12"
-    }, {
-    "section": "Editor's Pick Primary",
-    "type": "Article",
-    "title": "Apps To Help You Plan Summer Adventures", 
-    "url": "#link",
-    "id": "13",
-    "blurb": "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing."
-    }, {   
-    "section": "Editor's Pick",
-    "type": "List",
-    "title": "Make Summer Travel Easier with Tech",
-    "url": "#link",
-    "id": "14"
-    }, {
-    "section": "Editor's Pick",
-    "type": "List",
-    "title": "Take Your Tech Essentials On The Road",
-    "url": "#link",
-    "id": "15" 
-    }, {   
-    "section": "Editor's Pick",
-    "type": "Article",
-    "title":  "Don't Share This On Facebook While You Travel",
-    "url": "#link",
-    "id": "16"
-    }, {   
-    "section": "Editor's Pick",
-    "type": "List",
-    "title": "Let Apple TV Help With Travel Plans",
-    "url": "#link",
-    "id": "17"
-    }, {
-    "section": "Editor's Pick",
-    "type": "List",
-    "title": "Plan, Pack, And Go With These Apps",
-    "url": "#link",
-    "id": "18" 
-    }, {   
-    "section": "Editor's Pick",
-    "type": "Article",
-    "title":  "Google Travel Planner Helps With Summer Trips",
-    "url": "#link",
-    "id": "19"      
-    }],
-    "sections": [{
-      "section":"Editor's Pick Primary",
-      "icon": "",
-      "photo": "../../assets/img/element5-digital-645841-unsplash.jpg",
-      "url": "#link",
-      "id": "1"
-    }, {
-    "section": "Do More",
-    "icon": "../../assets/img/hp-domore.png",
-    "photo": "../../assets/img/history-in-hd-1142826-unsplash.jpg",
-    "url": "#link" ,
-    "id": "2"   
-  }, {
-    "section": "How To",
+  "how-to": [{
     "icon": "../../assets/img/hp-howto.png",
     "photo": "../../assets/img/photo-1555939327-48d6fd8a5ee2.jpeg",
     "url": "#link",
-    "id": "3"    
-  }, {
-    "section": "Fix",
+    "items": [
+      {
+        "type": "Article",
+        "title": "Get Your New Galaxy Buds Set Up",
+        "url":  "#link",
+        "id": "1"
+      },
+      {
+        "type": "List",
+        "title": "Start Creating with Canva today",
+        "url": "#link",
+        "id": "2"
+      },
+      {
+        "type": "Article",
+        "title":"Shooting Camera Raw can be a Game Changer",
+        "url": "#link",
+        "id": "3"
+      }
+    ]
+  }],
+  "fix": [{
     "icon": "../../assets/img/hp-fix.png",
     "photo": "../../assets/img/photo-1506506200949-df8644f002d1.jpeg",
     "url": "#link", 
-    "id": "4"   
-  }, {
-    "section": "Buy",
+    "items": [
+      {
+        "type": "Article",
+        "title": "Quick Fixes for Samsung S-Pen",
+        "url": "#link",
+        "id": "4"
+      }, 
+      {
+        "type": "Article",
+        "title": "Wi-Fi Network Not Showing Up?",
+        "url": "#link",
+        "id": "5"
+        }, {
+      
+        "type": "Article",
+        "title": "7 Ways to Fix When Chrome is Freezing",
+        "url": "#link",
+        "id": "6"
+      }
+    ]
+  }],
+  "buy": [{
     "icon": "../../assets/img/hp-buy.png",
     "photo": "../../assets/img/xianjuan-hu-455879-unsplash.jpg",
     "url": "#link",
-    "id": "5"   
+    "items": [
+      {
+        "type": "List",
+        "title": "Get Ready: Pregnancy Apps For Dads",
+        "url": "#link",
+        "id": "7"
+      },
+      {
+        "type": "List",
+        "title": "The 8 Best Places to Buy Phones in 2019",
+        "url": "#link",
+        "id": "8"
+      },
+      {
+        "type": "List",
+        "title": "Great Speakers for Outdoor Sound",
+        "url": "#link",
+        "id": "9"
+      }
+    ]
+  }],
+  "do-more": [{
+    "icon": "../../assets/img/hp-domore.png",
+    "photo": "../../assets/img/history-in-hd-1142826-unsplash.jpg",
+    "url": "#link" ,
+    "items": [
+      {
+        "type": "Article",
+        "title": "Why Should You Use A VPN",
+        "url": "#link",
+        "id": "10"
+      }, 
+      {
+        "type": "Article",
+        "title": "What Does Apollo 11 Have to do with Tech?",
+        "url": "#link",
+        "id": "11"
+      }, 
+      {
+        "type": "Article",
+        "title": "The Best Video Chat App You Aren't Using",  
+        "url": "#link",
+        "id": "12"
+      }
+    ]
+  }],
+  "editors-pick": [{
+    "icon": "",
+    "photo": "../../assets/img/element5-digital-645841-unsplash.jpg",
+    "url": "#link",
+    "items": [
+      {
+        "type": "Article",
+        "title": "Apps To Help You Plan Summer Adventures", 
+        "url": "#link",
+        "id": "13",
+        "blurb": "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing."
+      },
+      {
+        "type": "List",
+        "title": "Make Summer Travel Easier with Tech",
+        "url": "#link",
+        "id": "14"
+      }, 
+      {
+        "type": "List",
+        "title": "Take Your Tech Essentials On The Road",
+        "url": "#link",
+        "id": "15" 
+      }, 
+      {   
+        "type": "Article",
+        "title":  "Don't Share This On Facebook While You Travel",
+        "url": "#link",
+        "id": "16"
+      }, 
+      {   
+        "type": "List",
+        "title": "Let Apple TV Help With Travel Plans",
+        "url": "#link",
+        "id": "17"
+      }, 
+      {
+        "type": "List",
+        "title": "Plan, Pack, And Go With These Apps",
+        "url": "#link",
+        "id": "18" 
+      },
+      {  
+        "type": "Article",
+        "title":  "Google Travel Planner Helps With Summer Trips",
+        "url": "#link",
+        "id": "19"      
+      }]
+
     }]
 }
