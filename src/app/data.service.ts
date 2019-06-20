@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class DataService {
   howTo: FirebaseListObservable<any[]>;
   fix: FirebaseListObservable<any[]>;

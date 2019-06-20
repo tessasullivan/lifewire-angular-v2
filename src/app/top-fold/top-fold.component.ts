@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   providers: []
 })
 export class TopFoldComponent implements OnInit {
-  constructor(private router: Router, private sectionsService: DataService) {}
+  constructor(private router: Router, private dataService: DataService) {}
 
   howTo: FirebaseListObservable<any[]>;
   fix: FirebaseListObservable<any[]>;
