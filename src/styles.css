@@ -2,4 +2,5 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 body {
   background: linear-gradient(to bottom,#fff 15%,#F0F0F0 30%);
+  font-family: "Graphik Web", HelveticaNeueBold, HelveticaNeue-Bold, "Helvetica Neue Bold", HelveticaBold, Helvetica-Bold, "Helvetica Bold", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

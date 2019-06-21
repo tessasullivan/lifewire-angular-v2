@@ -1,4 +1,4 @@
-<div id='body'>
+<div class='body'>
   <div class="grid">
 
     <div id='header'>
@@ -11,7 +11,7 @@
     </div> 
 
     <div id='title' *ngFor="let ep of editorsPickMain | async">
-      <p>{{ ep.title }}</p>
+      <p><a href="{{ep.url}}">{{ ep.title }}</a></p>
     </div>
   <div id='description' *ngFor="let ep of editorsPickMain | async">
       <p>{{ep.blurb}}</p>
@@ -19,9 +19,10 @@
 
     <div id="ad">Your ad here</div>
 
-      <div *ngFor="let currentItem of editorsPick | async" id="{{currentItem.id}}" >
+      <div class="articles" *ngFor="let currentItem of editorsPick | async" id="{{currentItem.id}}" >
         <span class='type' >{{currentItem.type}}</span> <br />
         <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
       </div>
   </div> 
+  <div class="body" id="spacer"></div>
 </div> 

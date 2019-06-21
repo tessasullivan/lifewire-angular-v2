@@ -76,14 +76,12 @@ hr {
 }
 
 .type {
-  font-variant: small-caps;
-  color: gray;
+  color: lightgray;
 }
 .arrow {
   color: darkorange; 
 }
 .allLink {
   margin-left: 20px;
-  font-variant: small-caps;
   font-weight: bold; 
 }

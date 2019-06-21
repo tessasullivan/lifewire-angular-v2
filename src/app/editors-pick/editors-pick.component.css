@@ -1,5 +1,5 @@
 
-#body {
+.body {
   background-color: white;
 }
 h1 {
@@ -9,8 +9,7 @@ h1 {
   font-size: 1.75em;
 }
 .grid {
-  /* background-color: white; */
-  margin: 50px;
+  margin: 0px 50px 30px 50px;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(3, 1fr);
@@ -23,13 +22,15 @@ h1 {
   '. . ad'
   'ep1 ep4 ad'
   'ep2 ep5 ad'
-  'ep3 ep6 ad'
-  ;
+  'ep3 ep6 ad';
 }
 
 #photo {
   grid-area: photo;
   /* display: inline-block; */
+}
+#photo img {
+  max-width: 100%;
 }
 #description {
   grid-area: blurb;
@@ -78,10 +79,21 @@ a:hover {
 }
 hr {
   border: 1px solid rgb(243, 240, 240);
-  width: 90%;
+  width: 95%;
   justify-self: start;
 }
+
 .type {
-  font-variant: small-caps;
-  color: gray;
+  font-size: .75em;
+  color: lightgray;
+}
+#spacer {
+  display: block;
+  background-color: white;
+  height: 30px;
+}
+.articles {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1em;
 }

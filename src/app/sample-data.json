@@ -5,19 +5,19 @@
     "url": "#link",
     "items": [
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "Get Your New Galaxy Buds Set Up",
         "url":  "#link",
         "id": "1"
       },
       {
-        "type": "List",
+        "type": "LIST",
         "title": "Start Creating with Canva today",
         "url": "#link",
         "id": "2"
       },
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title":"Shooting Camera Raw can be a Game Changer",
         "url": "#link",
         "id": "3"
@@ -30,19 +30,19 @@
     "url": "#link", 
     "items": [
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "Quick Fixes for Samsung S-Pen",
         "url": "#link",
         "id": "4"
       }, 
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "Wi-Fi Network Not Showing Up?",
         "url": "#link",
         "id": "5"
         }, {
       
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "7 Ways to Fix When Chrome is Freezing",
         "url": "#link",
         "id": "6"
@@ -55,19 +55,19 @@
     "url": "#link",
     "items": [
       {
-        "type": "List",
+        "type": "LIST",
         "title": "Get Ready: Pregnancy Apps For Dads",
         "url": "#link",
         "id": "7"
       },
       {
-        "type": "List",
+        "type": "LIST",
         "title": "The 8 Best Places to Buy Phones in 2019",
         "url": "#link",
         "id": "8"
       },
       {
-        "type": "List",
+        "type": "LIST",
         "title": "Great Speakers for Outdoor Sound",
         "url": "#link",
         "id": "9"
@@ -80,19 +80,19 @@
     "url": "#link" ,
     "items": [
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "Why You Should Use A VPN",
         "url": "#link",
         "id": "10"
       }, 
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "What Does Apollo 11 Have to do with Tech?",
         "url": "#link",
         "id": "11"
       }, 
       {
-        "type": "Article",
+        "type": "ARTICLE",
         "title": "The Best Video Chat App You Aren't Using",  
         "url": "#link",
         "id": "12"
@@ -109,37 +109,37 @@
   }],
   "editors-pick": [
     {
-      "type": "List",
+      "type": "LIST",
       "title": "Make Summer Travel Easier with Tech",
       "url": "#link",
       "id": "ep1"
     }, 
     {
-      "type": "List",
+      "type": "LIST",
       "title": "Take Your Tech Essentials On The Road",
       "url": "#link",
       "id": "ep2" 
     }, 
     {   
-      "type": "Article",
+      "type": "ARTICLE",
       "title":  "Don't Share This On Facebook While You Travel",
       "url": "#link",
       "id": "ep3"
     }, 
     {   
-      "type": "List",
+      "type": "LIST",
       "title": "Let Apple TV Help With Travel Plans",
       "url": "#link",
       "id": "ep4"
     }, 
     {
-      "type": "List",
+      "type": "LIST",
       "title": "Plan, Pack, And Go With These Apps",
       "url": "#link",
       "id": "ep5" 
     },
     {  
-      "type": "Article",
+      "type": "ARTICLE",
       "title":  "Google Travel Planner Helps With Summer Trips",
       "url": "#link",
       "id": "ep6"      

@@ -1,3 +1,6 @@
+#body {
+  background-color: white;
+}
 .grid {
   display: grid;
   background-color: rgb(63, 63, 63);
@@ -57,7 +60,7 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
-li, p {
+li, p, a {
   color: white;
 }
 #footer-menu1 a:hover, #footer-menu2 a:hover {
