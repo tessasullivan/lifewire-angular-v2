@@ -1,7 +1,6 @@
 
-div {
+#body {
   background-color: white;
-  /* border: 1px solid gray; */
 }
 h1 {
   text-align: center;
@@ -10,12 +9,13 @@ h1 {
   font-size: 1.75em;
 }
 .grid {
+  /* background-color: white; */
   margin: 50px;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-  'header header header' 
+  '. header .' 
   'photo title ad'
   'photo blurb ad'
   'photo . ad'
@@ -29,7 +29,7 @@ h1 {
 
 #photo {
   grid-area: photo;
-  display: inline-block;
+  /* display: inline-block; */
 }
 #description {
   grid-area: blurb;
@@ -47,6 +47,7 @@ h1 {
   color: white;
   text-align: center;
   grid-area: ad;
+  margin-left: 10px;
 }
 #ep1 {
   grid-area: ep1;

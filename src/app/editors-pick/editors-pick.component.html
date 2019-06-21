@@ -1,25 +1,27 @@
-<div class="grid">
+<div id='body'>
+  <div class="grid">
 
-  <div id='header'>
-    <h1>EDITORS' PICK</h1>
-  </div>
-
-
-   <div id='photo' *ngFor="let ep of editorsPickMain | async">
-    <img  src= {{ep.photo}}/>
-  </div> 
-
-  <div id='title' *ngFor="let ep of editorsPickMain | async">
-    <p>{{ ep.title }}</p>
-  </div>
- <div id='description' *ngFor="let ep of editorsPickMain | async">
-    <p>{{ep.blurb}}</p>
-  </div>
-
-  <div id="ad">Your ad here</div>
-
-    <div *ngFor="let currentItem of editorsPick | async" id="{{currentItem.id}}" >
-      <span class='type' >{{currentItem.type}}</span> <br />
-      <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
+    <div id='header'>
+      <h1>EDITORS' PICK</h1>
     </div>
-</div>  
+
+
+    <div id='photo' *ngFor="let ep of editorsPickMain | async">
+      <img  src= {{ep.photo}}/>
+    </div> 
+
+    <div id='title' *ngFor="let ep of editorsPickMain | async">
+      <p>{{ ep.title }}</p>
+    </div>
+  <div id='description' *ngFor="let ep of editorsPickMain | async">
+      <p>{{ep.blurb}}</p>
+    </div>
+
+    <div id="ad">Your ad here</div>
+
+      <div *ngFor="let currentItem of editorsPick | async" id="{{currentItem.id}}" >
+        <span class='type' >{{currentItem.type}}</span> <br />
+        <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
+      </div>
+  </div> 
+</div> 
