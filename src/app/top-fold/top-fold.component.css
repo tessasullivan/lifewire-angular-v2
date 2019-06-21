@@ -33,6 +33,17 @@ hr {
   width: 90%;
   justify-self: start;
 }
+.type {
+  color: rgb(204,204,204);
+  font-size: .75em;
+}
+.arrow {
+  color: rgb(255,78,41); 
+}
+.allLink {
+  margin-left: 20px;
+  font-weight: bold; 
+}
 .grid {
   margin: 50px;
   margin-bottom: 0px;
@@ -45,44 +56,89 @@ hr {
   "howto1 fix1 buy1 domore1"
   "howto2 fix1 buy2 domore2"
   "howto3 fix1 buy3 domore3"
+  "howtoAll fixAll buyAll domoreAll";
 }
-#howtoH1 {
+#howToPhoto {
+  grid-area: howToPhoto;
+}
+#howToIcon {
+  grid-area: howToIcon;
+}
+#how-to h1 {
   grid-area: howtoH1;
+  text-decoration: underline;
+  text-decoration-color: rgb(96,218,241);
 }
-#howtoH2 {
-  grid-area: howtoH2;
+#howto1 {
+  grid-area: howto1;
 }
-#howtoH3 {
-  grid-area: howtoH3;
+#howto2 {
+  grid-area: howto2;
+}
+#howto3 {
+  grid-area: howto3;
+}
+#fixPhoto {
+  grid-area: fixPhoto;
+}
+#fixIcon {
+  grid-area: fixIcon;
+}
+#fix h1 {
+  grid-area: fixH1;
+  text-decoration: underline;
+  text-decoration-color: rgb(255,101,94);
+}
+#fix1 {
+  grid-area: fix1;
+}
+#fix2 {
+  grid-area: fix2;
+}
+#fix3 {
+  grid-area: fix3;
+}
+#buyPhoto {
+  grid-area: buyPhoto;
+}
+#buyIcon {
+  grid-area: buyIcon;
+}
+#buy h1 {
+  grid-area: buyH1;
+  text-decoration: underline;
+  text-decoration-color: rgb(171,220,76);
+}
+#buy1 {
+  grid-area: buy1;
+}
+#buy2 {
+  grid-area: buy2;
+}
+#buy3 {
+  grid-area: buy3;
+}
+#do-morePhoto {
+  grid-area: do-morePhoto;
+}
+#do-moreIcon {
+  grid-area: do-moreIcon;
+}
+#do-more h1 {
+  grid-area: do-moreH1;
+  text-decoration: underline;
+  text-decoration-color: rgb(117, 148, 238);
+}
+#do-more1 {
+  grid-area: do-more1;
+}
+#do-more2 {
+  grid-area: do-more2;
+}
+#do-more3 {
+  grid-area: do-more3;
 }
 #how-to, #fix, #do-more, #buy {
   background-color: white;
 }
-#how-to h1 {
-  text-decoration: underline;
-  text-decoration-color: rgb(96,218,241);
-}
-#fix h1 {
-  text-decoration: underline;
-  text-decoration-color: rgb(255,101,94);
-}
-#buy h1 {
-  text-decoration: underline;
-  text-decoration-color: rgb(171,220,76);
-}
-#do-more h1 {
-  text-decoration: underline;
-  text-decoration-color: rgb(117, 148, 238);
-}
 
-.type {
-  color: rgb(204,204,204);
-  font-size: .75em;
-}
-.arrow {
-  color: rgb(255,78,41); 
-}
-.allLink {
-  margin-left: 20px;
-  font-weight: bold; 
-}

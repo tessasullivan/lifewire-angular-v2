@@ -12,13 +12,17 @@
     <div>
       <ul *ngFor="let how of howTo | async">
         <li *ngFor="let currentItem of how.items">
+          <div id="{{currentItem.id}}">
             <span class="type">{{currentItem.type}}</span> <br />
-            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
+            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+          </div>
+        </li>
       </ul>
-      </div>
+    </div>
     <div *ngFor="let how of howTo | async">
-      <a class="allLink" href="{{how.url}}">All how to <span class="arrow">&rarr;</span></a>
-      </div>
+      <!-- <div id="howtoAll"> -->
+        <a class="allLink" href="{{how.url}}">All how to <span class="arrow">&rarr;</span></a>
+      <!-- </div> -->
     </div>
     <div id='fix'>
       <div *ngFor="let f of fix | async">
@@ -33,8 +37,11 @@
       <div>
         <ul *ngFor="let f of fix | async">
           <li *ngFor="let currentItem of f.items">
-            <span class="type">{{currentItem.type}}</span> <br />
-            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
+            <div id="{{currentItem.id}}">
+              <span class="type">{{currentItem.type}}</span> <br />
+              <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+            </div>
+          </li>
         </ul>
       </div>
       <div *ngFor="let f of fix | async">
@@ -54,8 +61,11 @@
        <div>
         <ul *ngFor="let b of buy | async">
           <li *ngFor="let currentItem of b.items">
-              <span class="type">{{currentItem.type}}</span> <br />
-              <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
+              <div id="{{currentItem.id}}">
+                  <span class="type">{{currentItem.type}}</span> <br />
+              <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+            </div>
+          </li>
         </ul>
       </div>
      <div *ngFor="let b of buy | async">
@@ -75,8 +85,11 @@
     <div>
       <ul *ngFor="let d of doMore | async">
           <li *ngFor="let currentItem of d.items">
-            <span class="type">{{currentItem.type}}</span> <br />
-            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>       
+              <div id="{{currentItem.id}}">
+                  <span class="type">{{currentItem.type}}</span> <br />
+                  <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+              </div>
+            </li>       
       </ul>
     </div>
     <div *ngFor="let d of doMore | async">
