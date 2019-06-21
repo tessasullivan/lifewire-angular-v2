@@ -13,7 +13,7 @@
     <div id='title' *ngFor="let ep of editorsPickMain | async">
       <p><a href="{{ep.url}}">{{ ep.title }}</a></p>
     </div>
-  <div id='description' *ngFor="let ep of editorsPickMain | async">
+  <div id='blurb' *ngFor="let ep of editorsPickMain | async">
       <p>{{ep.blurb}}</p>
     </div>
 
