@@ -141,4 +141,8 @@ hr {
 #how-to, #fix, #do-more, #buy {
   background-color: white;
 }
-
+ 
+#howto1, #fix1, #buy1, #do-more1 {
+  min-height: 4em;
+  max-height: 4em;
+}

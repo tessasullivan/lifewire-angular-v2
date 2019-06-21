@@ -1,13 +1,13 @@
 <div class="grid">
   <div id="how-to">
-    <div *ngFor="let how of howTo | async">
-      <img id='howToIcon' src="{{ how.icon }}" alt='How To Icon' />
+    <div *ngFor="let how of howTo | async" id='howToIcon'>
+      <img src="{{ how.icon }}" alt='How To Icon' />
     </div>
-    <div>
-      <h1 id="howToH1">How To</h1>
+    <div id="howToH1">
+      <h1>How To</h1>
     </div>
-    <div *ngFor="let how of howTo | async">
-      <img id='howToPhoto' src="{{ how.photo }}" alt='photo' />
+    <div *ngFor="let how of howTo | async" id='howToPhoto'>
+      <img src="{{ how.photo }}" alt='photo' />
     </div>
     <div>
       <ul *ngFor="let how of howTo | async">
@@ -20,79 +20,85 @@
       </ul>
     </div>
     <div *ngFor="let how of howTo | async">
-      <!-- <div id="howtoAll"> -->
+      <div id="howtoAll">
         <a class="allLink" href="{{how.url}}">All how to <span class="arrow">&rarr;</span></a>
-      <!-- </div> -->
-    </div>
-    <div id='fix'>
-      <div *ngFor="let f of fix | async">
-        <img id='fixIcon' src="{{f.icon}}" alt='Fix Icon' />
-      </div>
-      <div>
-        <h1 id="fixH1">Fix</h1>
-      </div>
-      <div *ngFor="let f of fix | async">
-        <img id='fixPhoto' src="{{ f.photo }}" alt='Fix Photo' />
-      </div>
-      <div>
-        <ul *ngFor="let f of fix | async">
-          <li *ngFor="let currentItem of f.items">
-            <div id="{{currentItem.id}}">
-              <span class="type">{{currentItem.type}}</span> <br />
-              <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div *ngFor="let f of fix | async">
-          <a class="allLink" href="{{f.url}}">All Fix<span class="arrow">&rarr;</span></a>
       </div>
     </div>
-    <div id="buy">
-      <div *ngFor="let b of buy | async">
-        <img id='buyIcon' src="{{b.icon}}" alt="Buy icon" />
-      </div>
-      <div>
-        <h1 id='buyH1'>Buy</h1>
-      </div>
-      <div *ngFor="let b of buy | async">
-        <img id='buyPhoto' src="{{ b.photo }}" alt="Buy photo" />
-      </div>
-       <div>
-        <ul *ngFor="let b of buy | async">
-          <li *ngFor="let currentItem of b.items">
-              <div id="{{currentItem.id}}">
-                  <span class="type">{{currentItem.type}}</span> <br />
-              <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
-            </div>
-          </li>
-        </ul>
-      </div>
-     <div *ngFor="let b of buy | async">
-        <a class="allLink" href="{{b.url}}">All buy<span class="arrow">&rarr;</span></a>
-      </div>
-    </div>
-    <div id='do-more'>
-      <div  *ngFor="let d of doMore | async">
-        <img id='do-moreIcon' src="{{d.icon}}" alt='Do More icon' />
-      </div>
-      <div>
-        <h1 id="doMoreH1">Do More</h1>
-      </div>
-    <div *ngFor="let d of doMore | async">
-      <img id='do-morePhoto' src="{{d.photo}}" alt="Do more photo" />
+  </div>
+
+  <div id='fix'>
+    <div *ngFor="let f of fix | async" id='fixIcon'>
+      <img src="{{f.icon}}" alt='Fix Icon' />
     </div>
     <div>
-      <ul *ngFor="let d of doMore | async">
-          <li *ngFor="let currentItem of d.items">
-              <div id="{{currentItem.id}}">
-                  <span class="type">{{currentItem.type}}</span> <br />
-                  <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
-              </div>
-            </li>       
+      <h1 id="fixH1">Fix</h1>
+    </div>
+    <div *ngFor="let f of fix | async" id='fixPhoto'>
+      <img src="{{ f.photo }}" alt='Fix Photo' />
+    </div>
+    <div>
+      <ul *ngFor="let f of fix | async">
+        <li *ngFor="let currentItem of f.items">
+          <div id="{{currentItem.id}}">
+            <span class="type">{{currentItem.type}}</span> <br />
+            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+          </div>
+        </li>
       </ul>
     </div>
-    <div *ngFor="let d of doMore | async">
-        <a class="allLink" href="{{d.url}}">All Do More<span class="arrow">&rarr;</span></a>
+    <div *ngFor="let f of fix | async">
+      <div id='fixAll'>
+        <a class="allLink" href="{{f.url}}">All Fix<span class="arrow">&rarr;</span></a>
+        </div>  
     </div>
+  </div>
+
+  <div id="buy">
+    <div *ngFor="let b of buy | async" id='buyIcon'>
+      <img src="{{b.icon}}" alt="Buy icon" />
+    </div>
+    <div id='buyH1'>
+      <h1>Buy</h1>
+    </div>
+    <div *ngFor="let b of buy | async" id='buyPhoto'>
+      <img src="{{ b.photo }}" alt="Buy photo" />
+    </div>
+      <div>
+      <ul *ngFor="let b of buy | async">
+        <li *ngFor="let currentItem of b.items">
+            <div id="{{currentItem.id}}">
+                <span class="type">{{currentItem.type}}</span> <br />
+            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div *ngFor="let b of buy | async" id='buyAll'>
+      <a class="allLink" href="{{b.url}}">All buy<span class="arrow">&rarr;</span></a>
+    </div>
+  </div>
+
+  <div id='do-more'>
+    <div  *ngFor="let d of doMore | async" id='do-moreIcon'>
+      <img src="{{d.icon}}" alt='Do More icon' />
+    </div>
+    <div>
+      <h1 id="doMoreH1">Do More</h1>
+    </div>
+  <div *ngFor="let d of doMore | async" id='do-morePhoto'>
+    <img src="{{d.photo}}" alt="Do more photo" />
+  </div>
+  <div>
+    <ul *ngFor="let d of doMore | async">
+        <li *ngFor="let currentItem of d.items">
+            <div id="{{currentItem.id}}">
+                <span class="type">{{currentItem.type}}</span> <br />
+                <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr>
+            </div>
+          </li>       
+    </ul>
+  </div>
+  <div *ngFor="let d of doMore | async">
+      <a class="allLink" href="{{d.url}}">All Do More<span class="arrow">&rarr;</span></a>
+  </div>
 </div>
