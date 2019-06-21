@@ -112,36 +112,36 @@
       "type": "List",
       "title": "Make Summer Travel Easier with Tech",
       "url": "#link",
-      "id": "14"
+      "id": "ep1"
     }, 
     {
       "type": "List",
       "title": "Take Your Tech Essentials On The Road",
       "url": "#link",
-      "id": "15" 
+      "id": "ep2" 
     }, 
     {   
       "type": "Article",
       "title":  "Don't Share This On Facebook While You Travel",
       "url": "#link",
-      "id": "16"
+      "id": "ep3"
     }, 
     {   
       "type": "List",
       "title": "Let Apple TV Help With Travel Plans",
       "url": "#link",
-      "id": "17"
+      "id": "ep4"
     }, 
     {
       "type": "List",
       "title": "Plan, Pack, And Go With These Apps",
       "url": "#link",
-      "id": "18" 
+      "id": "ep5" 
     },
     {  
       "type": "Article",
       "title":  "Google Travel Planner Helps With Summer Trips",
       "url": "#link",
-      "id": "19"      
+      "id": "ep6"      
     }]
 }

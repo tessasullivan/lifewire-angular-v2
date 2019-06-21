@@ -15,7 +15,7 @@ h1 {
   grid-gap: 5px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-  '. header .' 
+  'header header header' 
   'photo title ad'
   'photo blurb ad'
   'photo . ad'
