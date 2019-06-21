@@ -2,7 +2,7 @@
   "how-to": [{
     "icon": "../../assets/img/hp-howto.png",
     "photo": "../../assets/img/photo-1555939327-48d6fd8a5ee2.jpeg",
-    "url": "#link",
+    "url": "https://www.lifewire.com/how-to-4102585",
     "items": [
       {
         "type": "ARTICLE",
@@ -27,7 +27,7 @@
   "fix": [{
     "icon": "../../assets/img/hp-fix.png",
     "photo": "../../assets/img/aaron-burden-329406-unsplash.jpg",
-    "url": "#link", 
+    "url": "https://www.lifewire.com/fix-4102586", 
     "items": [
       {
         "type": "ARTICLE",
