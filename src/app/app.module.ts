@@ -13,6 +13,7 @@ import { EditorsPickComponent } from './editors-pick/editors-pick.component';
 import { FooterComponent } from './footer/footer.component';
 import { masterFirebaseConfig } from './api-keys';
 import { DummyComponent } from './dummy/dummy.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +32,8 @@ export const imgSrc = '../../assets/img';
     ConnectComponent,
     EditorsPickComponent,
     FooterComponent,
-    DummyComponent
+    DummyComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,

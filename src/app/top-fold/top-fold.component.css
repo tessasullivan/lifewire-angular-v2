@@ -32,6 +32,7 @@ hr {
   border: 1px solid rgb(243, 240, 240);
   width: 90%;
   justify-self: start;
+  margin-bottom: 10px;
 }
 .type {
   color: rgb(204,204,204);
@@ -43,6 +44,9 @@ hr {
 .allLink {
   margin-left: 20px;
   font-weight: bold; 
+}
+#howtoAll, #fixAll, #buyAll, #do-moreAll {
+  margin-bottom: 10px;
 }
 .grid {
   margin: 50px;
@@ -142,10 +146,15 @@ hr {
   background-color: white;
 }
  
-#howto1, #fix1, #buy1, #do-more1 {
+/* #howto1, #fix1, #buy1, #do-more1 {
   min-height: 4em;
   max-height: 4em;
 }
+#howto2, #fix2, #buy2, #do-more2 {
+  min-height: 3.5em;
+  max-height: 3.5em;
+} */
 .box {
   border: 1px solid rgb(238, 238, 238);
+  border-bottom: 0px;
 }
