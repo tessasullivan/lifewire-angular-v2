@@ -1,5 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
-// import { Section } from '../models/section.model';
+import { Component, OnInit } from '@angular/core';
 import {DataService } from '../data.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Router } from '@angular/router';
@@ -25,7 +24,7 @@ export class TopFoldComponent implements OnInit {
     this.doMore = this.dataService.getDoMoreSection();
   }
 
-  getItems(clickedSection) {
-    this.router.navigate([`'${clickedSection.items}`, clickedSection.$key]);
-  }
+  // getItems(clickedSection) {
+  //   this.router.navigate([`'${clickedSection.items}`, clickedSection.$key]);
+  // }
 }

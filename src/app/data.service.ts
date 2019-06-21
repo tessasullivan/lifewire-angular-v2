@@ -3,35 +3,38 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class DataService {
-  howToFb: FirebaseListObservable<any[]>;
-  fixFb: FirebaseListObservable<any[]>;
-  doMoreFb: FirebaseListObservable<any[]>;
-  buyFb: FirebaseListObservable<any[]>;
-  editorsPickFb: FirebaseListObservable<any[]>;
-
-  howToList: any;
+  howTo: FirebaseListObservable<any[]>;
+  fix: FirebaseListObservable<any[]>;
+  doMore: FirebaseListObservable<any[]>;
+  buy: FirebaseListObservable<any[]>;
+  editorsPick: FirebaseListObservable<any[]>;
+  editorsPickMain: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) { 
-    this.howToFb = database.list('how-to');
-    this.fixFb = database.list('fix');
-    this.buyFb = database.list('buy');
-    this.doMoreFb = database.list('do-more');
-    this.editorsPickFb = database.list('editors-pick');
+    this.howTo = database.list('how-to');
+    this.fix = database.list('fix');
+    this.buy = database.list('buy');
+    this.doMore = database.list('do-more');
+    this.editorsPick = database.list('editors-pick');
+    this.editorsPickMain = database.list('editors-pick-main');
   }
 
   getHowToSection() {
-    return this.howToFb;
+    return this.howTo;
   }
   getFixSection() {
-    return this.fixFb;
+    return this.fix;
   }
   getBuySection() {
-    return this.buyFb;
+    return this.buy;
   }
   getDoMoreSection() {
-    return this.doMoreFb;
+    return this.doMore;
   }
   getEditorsPickSection() {
-    return this.editorsPickFb;
+    return this.editorsPick;
+  }
+  getEditorsPickSectionMain() {
+    return this.editorsPickMain;
   }
 }

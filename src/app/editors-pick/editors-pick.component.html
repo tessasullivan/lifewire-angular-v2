@@ -5,21 +5,23 @@
   </div>
 
 
-  <!-- <div id='photo'>
-    <img  src= {{editorsPickMainItem.photo}}/>
-  </div>
+   <div id='photo' *ngFor="let ep of editorsPickMain | async">
+    <img  src= {{ep.photo}}/>
+  </div> 
 
-  <div id='title'>
-    <p >{{editorsPickMainItem.title}}</p>
+  <div id='title' *ngFor="let ep of editorsPickMain | async">
+    <p>{{ ep.title }}</p>
   </div>
-  <div id='description'>
-    <p>{{editorsPickMainItem.description}}</p>
+ <div id='description' *ngFor="let ep of editorsPickMain | async">
+    <p>{{ep.blurb}}</p>
   </div>
 
   <div id="ad">Your ad here</div>
 
-  <div *ngFor="let currentItem of editorsPickSection.items" id="{{currentItem.id}}" >
+  <div *ngFor="let ep of editorsPick | async">
+    <div *ngFor="let currentItem of ep" id="{{currentItem.id}}" >
       <span class='type' >{{currentItem.type}}</span> <br />
       <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
-  </div> -->
+    </div>
+  </div>
 </div>  

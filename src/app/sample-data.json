@@ -99,54 +99,49 @@
       }
     ]
   }],
-  "editors-pick": [{
+  "editors-pick-main": [{
     "icon": "",
     "photo": "../../assets/img/element5-digital-645841-unsplash.jpg",
     "url": "#link",
-    "items": [
-      {
-        "type": "Article",
-        "title": "Apps To Help You Plan Summer Adventures", 
-        "url": "#link",
-        "id": "13",
-        "blurb": "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing."
-      },
-      {
-        "type": "List",
-        "title": "Make Summer Travel Easier with Tech",
-        "url": "#link",
-        "id": "14"
-      }, 
-      {
-        "type": "List",
-        "title": "Take Your Tech Essentials On The Road",
-        "url": "#link",
-        "id": "15" 
-      }, 
-      {   
-        "type": "Article",
-        "title":  "Don't Share This On Facebook While You Travel",
-        "url": "#link",
-        "id": "16"
-      }, 
-      {   
-        "type": "List",
-        "title": "Let Apple TV Help With Travel Plans",
-        "url": "#link",
-        "id": "17"
-      }, 
-      {
-        "type": "List",
-        "title": "Plan, Pack, And Go With These Apps",
-        "url": "#link",
-        "id": "18" 
-      },
-      {  
-        "type": "Article",
-        "title":  "Google Travel Planner Helps With Summer Trips",
-        "url": "#link",
-        "id": "19"      
-      }]
-
+    "title": "Apps To Help You Plan Summer Adventures", 
+    "id": "13",
+    "blurb": "Discover the 10 best travel planner apps for 2019 for Android, iOS, and all major web browsers. Get help packing, planning, and purchasing."
+  }],
+  "editors-pick": [
+    {
+      "type": "List",
+      "title": "Make Summer Travel Easier with Tech",
+      "url": "#link",
+      "id": "14"
+    }, 
+    {
+      "type": "List",
+      "title": "Take Your Tech Essentials On The Road",
+      "url": "#link",
+      "id": "15" 
+    }, 
+    {   
+      "type": "Article",
+      "title":  "Don't Share This On Facebook While You Travel",
+      "url": "#link",
+      "id": "16"
+    }, 
+    {   
+      "type": "List",
+      "title": "Let Apple TV Help With Travel Plans",
+      "url": "#link",
+      "id": "17"
+    }, 
+    {
+      "type": "List",
+      "title": "Plan, Pack, And Go With These Apps",
+      "url": "#link",
+      "id": "18" 
+    },
+    {  
+      "type": "Article",
+      "title":  "Google Travel Planner Helps With Summer Trips",
+      "url": "#link",
+      "id": "19"      
     }]
 }

@@ -1,8 +1,9 @@
 
 .grid {
   background-color: rgb(252, 202,42);
-  /* margin: 50px; */
-  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px;
   display: grid;
   grid-template:
   "email email email email-speech facebook";
@@ -36,7 +37,7 @@ button {
   justify-self: end;
 }
 #email-speech img {
-  max-width: 150px;
+  max-width: 125px;
 }
 #facebook {
   justify-self: end;

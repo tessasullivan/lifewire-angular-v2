@@ -1,12 +1,20 @@
-import { Component, Input } from '@angular/core';
-import { Section } from '../models/section.model';
+import { Component, OnInit } from '@angular/core';
+import {DataService } from '../data.service';
+import { FirebaseListObservable } from 'angularfire2/database';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'editors-pick',
   templateUrl: './editors-pick.component.html',
-  styleUrls: ['./editors-pick.component.css']
+  styleUrls: ['./editors-pick.component.css'],
+  providers: [DataService]
 })
 export class EditorsPickComponent {
-  @Input() editorsPickSection: Section;
-  @Input() editorsPickMainItem: any;
+  constructor(private router: Router, private dataService: DataService) {}
+
+  editorsPick: FirebaseListObservable<any[]>;
+
+  ngOnInit() {
+    this.editorsPick = this.dataService.getEditorsPickSection();
+  }
 }
