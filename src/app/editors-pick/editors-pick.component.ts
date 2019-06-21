@@ -13,8 +13,10 @@ export class EditorsPickComponent {
   constructor(private router: Router, private dataService: DataService) {}
 
   editorsPick: FirebaseListObservable<any[]>;
+  editorsPickMain: FirebaseListObservable<any[]>;
 
   ngOnInit() {
     this.editorsPick = this.dataService.getEditorsPickSection();
+    this.editorsPickMain = this.dataService.getEditorsPickSectionMain();
   }
 }
