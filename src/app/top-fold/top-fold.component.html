@@ -58,28 +58,28 @@
               <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
         </ul>
       </div>
-<!--      <div>
-        <a class="allLink" href="{{tfBuySection.url}}">All buy<span class="arrow">&rarr;</span></a>
+     <div *ngFor="let b of buy | async">
+        <a class="allLink" href="{{b.url}}">All buy<span class="arrow">&rarr;</span></a>
       </div>
     </div>
     <div id='do-more'>
-      <div>
-        <img id='do-moreIcon' src="{{tfDoMoreSection.icon}}" alt='Do More icon' />
+      <div  *ngFor="let d of doMore | async">
+        <img id='do-moreIcon' src="{{d.icon}}" alt='Do More icon' />
       </div>
       <div>
         <h1 id="doMoreH1">Do More</h1>
       </div>
-    <div>
-      <img id='do-morePhoto' src="{{tfDoMoreSection.photo}}" alt="Do more photo" />
+    <div *ngFor="let d of doMore | async">
+      <img id='do-morePhoto' src="{{d.photo}}" alt="Do more photo" />
     </div>
     <div>
-      <ul>
-          <li *ngFor="let currentItem of tfDoMoreSection.items">
+      <ul *ngFor="let d of doMore | async">
+          <li *ngFor="let currentItem of d.items">
             <span class="type">{{currentItem.type}}</span> <br />
             <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>       
       </ul>
     </div>
-    <div>
-        <a class="allLink" href="{{tfDoMoreSection.url}}">All Do More<span class="arrow">&rarr;</span></a>
-    </div> -->
+    <div *ngFor="let d of doMore | async">
+        <a class="allLink" href="{{d.url}}">All Do More<span class="arrow">&rarr;</span></a>
+    </div>
 </div>

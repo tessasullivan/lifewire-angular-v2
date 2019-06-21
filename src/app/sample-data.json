@@ -1,7 +1,7 @@
 {
   "how-to": [{
-    "icon": "hp-howto.png",
-    "photo": "photo-1555939327-48d6fd8a5ee2.jpeg",
+    "icon": "../../assets/img/hp-howto.png",
+    "photo": "../../assets/img/photo-1555939327-48d6fd8a5ee2.jpeg",
     "url": "#link",
     "items": [
       {
@@ -25,8 +25,8 @@
     ]
   }],
   "fix": [{
-    "icon": "hp-fix.png",
-    "photo": "photo-1506506200949-df8644f002d1.jpeg",
+    "icon": "../../assets/img/hp-fix.png",
+    "photo": "../../assets/img/aaron-burden-329406-unsplash.jpg",
     "url": "#link", 
     "items": [
       {
@@ -50,8 +50,8 @@
     ]
   }],
   "buy": [{
-    "icon": "hp-buy.png",
-    "photo": "xianjuan-hu-455879-unsplash.jpg",
+    "icon": "../../assets/img/hp-buy.png",
+    "photo": "../../assets/img/depositphotos_169345474-stock-video-man-and-pregnant-wife-with-edited.jpg",
     "url": "#link",
     "items": [
       {
@@ -75,13 +75,13 @@
     ]
   }],
   "do-more": [{
-    "icon": "hp-domore.png",
-    "photo": "history-in-hd-1142826-unsplash.jpg",
+    "icon": "../../assets/img/hp-domore.png",
+    "photo": "../../assets/img/markus-spiske-153537-unsplash.jpg",
     "url": "#link" ,
     "items": [
       {
         "type": "Article",
-        "title": "Why Should You Use A VPN",
+        "title": "Why You Should Use A VPN",
         "url": "#link",
         "id": "10"
       }, 
@@ -101,7 +101,7 @@
   }],
   "editors-pick": [{
     "icon": "",
-    "photo": "element5-digital-645841-unsplash.jpg",
+    "photo": "../../assets/img/element5-digital-645841-unsplash.jpg",
     "url": "#link",
     "items": [
       {
