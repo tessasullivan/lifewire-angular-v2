@@ -17,7 +17,7 @@ a {
   color: black;
 }
 a:hover {
-  color: darkorange;
+  color: rgb(255, 107,76);
   text-decoration: none;
 }
 
@@ -60,26 +60,27 @@ hr {
 }
 #how-to h1 {
   text-decoration: underline;
-  text-decoration-color: skyblue;
+  text-decoration-color: rgb(96,218,241);
 }
 #fix h1 {
   text-decoration: underline;
-  text-decoration-color: salmon;
+  text-decoration-color: rgb(255,101,94);
 }
 #buy h1 {
   text-decoration: underline;
-  text-decoration-color: yellowgreen;
+  text-decoration-color: rgb(171,220,76);
 }
 #do-more h1 {
   text-decoration: underline;
-  text-decoration-color: rgb(72, 139, 194);
+  text-decoration-color: rgb(117, 148, 238);
 }
 
 .type {
-  color: lightgray;
+  color: rgb(204,204,204);
+  font-size: .75em;
 }
 .arrow {
-  color: darkorange; 
+  color: rgb(255,78,41); 
 }
 .allLink {
   margin-left: 20px;

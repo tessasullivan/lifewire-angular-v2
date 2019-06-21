@@ -5,7 +5,7 @@
 h1 {
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: darkorange;
+  text-decoration-color: rgb(255,200,64);
   font-size: 1.75em;
 }
 .grid {
@@ -74,7 +74,7 @@ a {
   font-weight: bold;
 }
 a:hover {
-  color: darkorange;
+  color: rgb(255,107,76);
   text-decoration: none;
 }
 hr {
@@ -85,7 +85,7 @@ hr {
 
 .type {
   font-size: .75em;
-  color: lightgray;
+  color: (rgb(204,204,204));
 }
 #spacer {
   display: block;
