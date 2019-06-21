@@ -11,10 +11,10 @@
     </div>
     <div>
       <ul *ngFor="let how of howTo | async">
-        <li *ngFor="let currentItem of how.items | async">
-          <span class='type' >{{currentItem.type}}</span> <br />
-          <a id="{{currentItem.id}}" href="{{currentItem.link}}">{{currentItem.title}}</a><hr></li>
-        </ul>
+        <li *ngFor="let currentItem of how.items">
+            <span class="type">{{currentItem.type}}</span> <br />
+            <a href="{{currentItem.link}}">{{currentItem.title}}</a> <hr></li>
+      </ul>
       </div>
     <div *ngFor="let how of howTo | async">
       <a class="allLink" href="{{how.url}}">All how to <span class="arrow">&rarr;</span></a>
