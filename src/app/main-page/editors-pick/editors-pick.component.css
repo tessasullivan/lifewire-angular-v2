@@ -80,23 +80,24 @@ hr {
   justify-self: start;
 }
 
-.type {
-  font-size: .75em;
-  color: (rgb(204,204,204));
+.articles {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1em;
 }
 #spacer {
   display: block;
   background-color: white;
   height: 30px;
 }
-.articles {
-  font-size: 1.2em;
-  font-weight: bold;
-  line-height: 1em;
-}
 #blurb {
   font-size: normal;
   font-weight: lighter;
   color: rgb(152, 152,152);
   grid-area: blurb;
+}
+.type {
+  font-size: .75em;
+  color: (rgb(204,204,204));
+  font-weight: lighter;
 }

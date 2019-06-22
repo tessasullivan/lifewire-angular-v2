@@ -19,9 +19,9 @@
 
     <div id="ad">Your ad here</div>
 
-      <div class="articles" *ngFor="let currentItem of editorsPick | async" id="{{currentItem.id}}" >
+      <div *ngFor="let currentItem of editorsPick | async" id="{{currentItem.id}}" >
         <span class='type' >{{currentItem.type}}</span> <br />
-        <a href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
+        <a class="articles" href="{{currentItem.link}}">{{currentItem.title}}</a><hr>
       </div>
   </div> 
   <div class="body" id="spacer"></div>

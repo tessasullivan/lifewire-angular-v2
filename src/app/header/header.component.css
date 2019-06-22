@@ -15,3 +15,31 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.btn-go{
+  background:#00BAFF;
+  border:0;
+  border-bottom: 2px solid white;
+  font-size:1rem;
+  font-weight: 700;
+  color: white;
+  margin-left: -3px;
+  height: 42px;
+  text-align:center;
+}
+.btn-go:focus,.btn-go:hover {
+  color:#fff;
+}
+  
+.btn-go:hover {
+  background:#0094CC;
+}
+input {
+  box-shadow:none;
+  border:1px solid #D8D8D8;
+  border-right:0;
+  padding:.6rem .65rem;
+  line-height:1.2rem;
+  color:#101010;
+  border-radius:0;
+  height:42px;
+} 
