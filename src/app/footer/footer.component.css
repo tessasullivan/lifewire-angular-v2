@@ -3,6 +3,8 @@
 }
 .grid {
   display: grid;
+  padding-left: 50px;
+  padding-top: 30px;
   background-color: rgb(63, 63, 63);
   grid-template-areas:
   'logo . . .'
@@ -60,6 +62,9 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
+#footer-menu1 a, #footer-menu2 a {
+  font-weight: 100;
+}
 li, p, a {
   color: white;
 }
@@ -67,8 +72,23 @@ li, p, a {
   text-decoration: underline;
 }
 #facebook {
-  margin: 25px;
+  margin: 5px 25px 20px 25px;
 }
 #facebook img {
   max-width: 100px;
 }
+/* #footer {
+  background-color: white;
+  color: rgb(21, 21, 21);
+  grid-area: footer;
+}
+#dot-dash {
+  grid-area: dot-dash;
+}
+#tagline {
+  grid-area: tagline;
+}
+#tagline a {
+  color: rgb(33,33,33);
+  font-weight: bold;
+} */

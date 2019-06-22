@@ -49,6 +49,8 @@ hr {
   margin-bottom: 10px;
 }
 .grid {
+  /* position: static;
+  top: 100px; */
   margin: 50px;
   margin-bottom: 0px;
   display: grid;
