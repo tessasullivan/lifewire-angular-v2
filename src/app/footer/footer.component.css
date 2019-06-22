@@ -77,18 +77,25 @@ li, p, a {
 #facebook img {
   max-width: 100px;
 }
-/* #footer {
+#footer {
+  display: grid;
   background-color: white;
   color: rgb(21, 21, 21);
-  grid-area: footer;
+  padding:50px;
+  grid-template-areas:
+  'dot-dash tagline'
+  '. links'
 }
 #dot-dash {
   grid-area: dot-dash;
 }
-#tagline {
+#tagline p {
+  color: rgb(24, 24, 24);
   grid-area: tagline;
+  font-weight: 100;
 }
 #tagline a {
   color: rgb(33,33,33);
   font-weight: bold;
-} */
+  grid-area: links;
+}

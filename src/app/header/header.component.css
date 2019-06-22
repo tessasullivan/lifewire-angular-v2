@@ -1,10 +1,4 @@
-div #body {
-  position: -webkit-sticky;
-  position:sticky;
-  background-color: white;
-  top:0;
-  width: 100%;
-}
+
 .grid {
   display: grid;
   grid-template-columns: 4fr 4fr 3fr;
@@ -20,7 +14,7 @@ div #body {
 }
 #name {
   margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 .btn-go{
   background:#00BAFF;
